@@ -112,32 +112,6 @@
             background-color: #0056b3;
         }
 
-        /* CSS for arrows */
-        .prev, .next {
-            cursor: pointer;
-            position: absolute;
-            top: 50%;
-            width: auto;
-            padding: 16px;
-            margin-top: -22px;
-            color: white;
-            font-weight: bold;
-            font-size: 18px;
-            transition: 0.6s ease;
-            border-radius: 0 3px 3px 0;
-            user-select: none;
-            background-color: rgba(0, 0, 0, 0.3);
-        }
-
-        .next {
-            right: 0;
-            border-radius: 3px 0 0 3px;
-            left: auto;
-        }
-
-        .prev:hover, .next:hover {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
     </style>
 </head>
 <body>
@@ -170,15 +144,7 @@
                     <!-- Audio QR code install button -->
                     <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
                     <!-- Preview images -->
-                    <div class="preview-images">
-                        <img v-if="skill.images && skill.images.length > 0" v-for="(image, index) in skill.images" :key="index" :src="image" alt="Skill Image" :style="{ display: currentIndex === index ? 'block' : 'none' }">
-                        <!-- Use skill icon as the single image if no images available -->
-                        <img v-else :src="skill.icon" alt="Skill Icon">
-                        <!-- Left arrow (only render if more than one image) -->
-                        <div v-if="skill.images.length > 1" class="prev" @click="prevSlide">&#10094;</div>
-                        <!-- Right arrow (only render if more than one image) -->
-                        <div v-if="skill.images.length > 1" class="next" @click="nextSlide">&#10095;</div>
-                    </div>
+                    <img :src="skill.images ? skill.images[0] : skill.icon" alt="Skill Image">
                     <!-- Examples -->
                     <div class="preview-examples">
                         <h5>Examples:</h5>
@@ -289,19 +255,6 @@
                     event.currentTarget.querySelector('.preview-container').classList.remove('show');
                     document.querySelector('.card-content').classList.remove('hidden');
                 },
-                
-                // Method to navigate to the previous slide in the preview
-                prevSlide() {
-                    if (this.currentIndex > 0) {
-                        this.currentIndex--;
-                    }
-                },
-                // Method to navigate to the next slide in the preview
-                nextSlide() {
-                    if (this.currentIndex < this.skills[this.currentIndex].images.length - 1) {
-                        this.currentIndex++;
-                    }
-                }
             },
             mounted() {
                 // Fetch skills when the component is mounted
