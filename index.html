@@ -144,7 +144,9 @@
                     <!-- Audio QR code install button -->
                     <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
                     <!-- Preview images -->
-                    <img :src="skill.images ? skill.images[0] : skill.icon" alt="Skill Image">
+                    <div class="preview-images">
+                        <img :src="skill.images ? skill.images[0] : skill.icon" alt="Skill Image">
+                    </div>
                     <!-- Examples -->
                     <div class="preview-examples">
                         <h5>Examples:</h5>
