@@ -36,6 +36,38 @@
             ]
         },
         {
+            "skill_id": "skill-ovos-youtube-music.jarbasal",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-youtube-music",
+            "package_name": "ovos-skill-ovos-youtube-music",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [
+                    "ovos-ocp-youtube-plugin"
+                ],
+                "media": [
+                    "ovos-ocp-youtube-plugin"
+                ],
+                "gui": []
+            },
+            "icon": "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube-music/dev/res/ytmus.png",
+            "images": [
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube-music/dev/gui.gif"
+            ],
+            "name": "Youtube Music Skill",
+            "description": "Youtube Music OCP Skill - search Youtube Music by voice!",
+            "examples": [
+                "play Ant\u00f3nio Varia\u00e7\u00f5es"
+            ],
+            "tags": [
+                "youtube",
+                "common play",
+                "music",
+                "entertainment"
+            ]
+        },
+        {
             "skill_id": "skill-iheartradio.openvoiceos",
             "source": "https://github.com/OVOSHatchery/ovos-skill-iheart",
             "package_name": "ovos-skill-iheartradio",
@@ -63,6 +95,65 @@
             "tags": [
                 "audio",
                 "radio",
+                "OCP",
+                "entertainment"
+            ]
+        },
+        {
+            "skill_id": "skill-ovos-spotify.openvoiceos",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-spotify",
+            "package_name": "ovos-skill-ovos-spotify",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [],
+                "media": [
+                    "ovos-media-plugin-spotify"
+                ],
+                "gui": []
+            },
+            "icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUZqngh5mQq2OkOErN9pDnIeWjqgyxHOFTqYigWeCkCQ&s",
+            "images": [],
+            "name": "OVOS Spotify skill",
+            "description": "OCP skill for Spotify. This skill requires additional setup and components.",
+            "examples": [
+                "play heavy metal",
+                "play motorhead"
+            ],
+            "tags": [
+                "OVOS",
+                "Spotify",
+                "music",
+                "OCP",
+                "voice-search"
+            ]
+        },
+        {
+            "skill_id": "skill-ovos-tunein.openvoiceos",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-tunein",
+            "package_name": "ovos-skill-ovos-tunein",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [],
+                "media": [],
+                "gui": []
+            },
+            "icon": "https://github.com/OpenVoiceOS/skill-ovos-tunein/raw/dev/res/tunein.png",
+            "images": [
+                "https://github.com/OpenVoiceOS/skill-ovos-tunein/raw/dev/gui.png"
+            ],
+            "name": "TuneIn",
+            "description": "OCP skill for TuneIn.",
+            "examples": [
+                "play heavy metal heart radio",
+                "play metal heart radio on tune in"
+            ],
+            "tags": [
+                "audio",
+                "music",
                 "OCP",
                 "entertainment"
             ]
@@ -127,6 +218,114 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-local-media.openvoiceos",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-local-media",
+            "package_name": "ovos-skill-local-media",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [],
+                "media": [],
+                "gui": [
+                    "ovos-plugin-gui"
+                ]
+            },
+            "icon": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/folder-open.svg",
+            "name": "Local Media",
+            "description": "File Browser For Open Voice OS. For voice search, this skill builds a local index of scanned user media. Your collection needs to be organized in the following fashion to be detected by this skill: ~/OCPMedia/Music, ~/OCPMedia/Movies, ~/OCPMedia/Podcasts, ~/OCPMedia/... ",
+            "category": "Daily",
+            "tags": [
+                "filebrowser",
+                "browser",
+                "file",
+                "manager",
+                "local",
+                "usb"
+            ],
+            "images": [
+                "https://github.com/OpenVoiceOS/skill-ovos-local-media/assets/33701864/d88630f2-3291-410a-a499-1d33ab93415c"
+            ]
+        },
+        {
+            "skill_id": "skill-ovos-news.openvoiceos",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-news",
+            "package_name": "ovos-skill-ovos-news",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [
+                    "ovos-ocp-news-plugin"
+                ],
+                "media": [
+                    "ovos-ocp-news-plugin"
+                ],
+                "gui": []
+            },
+            "icon": "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-news/dev/res/icon/news.png",
+            "images": [
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-news/dev/gui.png",
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-news/dev/gui2.png",
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-news/dev/gui3.png"
+            ],
+            "name": "News Streams",
+            "description": "News streams from around the globe.",
+            "examples": [
+                "play the news",
+                "play npr news",
+                "play euronews",
+                "play catalan news",
+                "play portuguese news",
+                "play news in spanish"
+            ],
+            "tags": [
+                "news",
+                "information"
+            ]
+        },
+        {
+            "skill_id": "skill-ovos-bandcamp.openvoiceos",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-bandcamp",
+            "package_name": "ovos-skill-bandcamp",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [
+                    "ovos-ocp-bandcamp-plugin"
+                ],
+                "media": [
+                    "ovos-ocp-bandcamp-plugin"
+                ],
+                "gui": []
+            },
+            "icon": "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-bandcamp/dev/ui/logo.png",
+            "name": "BandCamp Skill",
+            "description": "Bandcamp skill for your hipster music needs.",
+            "examples": [
+                "play compressorhead",
+                "play astronaut problems",
+                "play {artist/album/genre/track}",
+                "search bandcamp for black metal",
+                "search bandcamp for {artist/album/genre/track}",
+                "play center of all infinity album",
+                "play {album} album",
+                "play freezing moon by mayhem",
+                "play {track} by {artist}"
+            ],
+            "tags": [
+                "music",
+                "audio",
+                "bandcamp",
+                "common play"
+            ],
+            "images": [
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-bandcamp/dev/ui/logo.png",
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-bandcamp/dev/gui.gif"
+            ]
+        },
+        {
             "skill_id": "skill-librivox.openvoiceos",
             "source": "https://github.com/OVOSHatchery/ovos-skill-librivox",
             "package_name": "ovos-skill-librivox",
@@ -154,6 +353,101 @@
                 "librivox",
                 "common play",
                 "entertainment"
+            ]
+        },
+        {
+            "skill_id": "skill-ovos-somafm.openvoiceos",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-somafm/tree/dev",
+            "package_name": "ovos-skill-ovos-somafm",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [],
+                "media": [],
+                "gui": []
+            },
+            "icon": "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-somafm/dev/ui/somafm.png",
+            "images": [
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-somafm/dev/gui.png"
+            ],
+            "name": "SomaFM",
+            "description": "OCP skill for SomaFM.",
+            "examples": [
+                "play soma fm radio",
+                "play secret agent",
+                "play metal detector"
+            ],
+            "tags": [
+                "audio",
+                "music",
+                "OCP",
+                "entertainment"
+            ]
+        },
+        {
+            "skill_id": "skill-ovos-soundcloud.openvoiceos",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-soundcloud",
+            "package_name": "ovos-skill-soundcloud",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [],
+                "media": [],
+                "gui": []
+            },
+            "icon": "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-soundcloud/dev/ui/soundcloud.png",
+            "name": "Soundcloud Skill",
+            "description": "SoundCloud skill for OCP. Search SoundCloud by voice.",
+            "examples": [
+                "play piratech in SoundCloud",
+                "play piratech nuclear chill"
+            ],
+            "tags": [
+                "soundcloud",
+                "OCP",
+                "common play",
+                "music"
+            ],
+            "images": [
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-soundcloud/dev/gui.png"
+            ]
+        },
+        {
+            "skill_id": "skill-ovos-youtube.openvoiceos",
+            "source": "https://github.com/OpenVoiceOS/skill-ovos-youtube",
+            "package_name": "ovos-skill-youtube",
+            "extra_plugins": {
+                "core": [],
+                "PHAL": [],
+                "listener": [],
+                "audio": [
+                    "ovos-ocp-youtube-plugin"
+                ],
+                "media": [
+                    "ovos-ocp-youtube-plugin"
+                ],
+                "gui": []
+            },
+            "icon": "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/ui/ytube.jpg",
+            "name": "Simple Youtube Skill",
+            "description": "Simple youtube skill for better-cps. Search youtube by voice! This skill can be configured as a fallback matcher for play queries.",
+            "examples": [
+                "play rob zombie",
+                "play freezing moon with dead on vocals",
+                "play programming music mix",
+                "play center of all infinity album"
+            ],
+            "tags": [
+                "video",
+                "youtube",
+                "common play",
+                "music"
+            ],
+            "images": [
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/ui/gui.png",
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/ui/gui2.png"
             ]
         }
     ]
