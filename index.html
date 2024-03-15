@@ -158,6 +158,8 @@
             <!-- Preview overlay -->
             <div class="card-overlay">
                 <div class="preview-container">
+                    <!-- Audio QR code install button -->
+                    <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
                     <!-- Preview images -->
                     <div class="preview-images">
                         <img v-if="skill.images && skill.images.length > 0" v-for="(image, index) in skill.images" :key="index" :src="image" alt="Skill Image" :style="{ display: currentIndex === index ? 'block' : 'none' }">
@@ -175,8 +177,6 @@
                             <li v-for="(example, index) in skill.examples.slice(0, 5)" :key="index">{{ example }}</li>
                         </ul>
                     </div>
-                    <!-- Audio QR code install button -->
-                    <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
                 </div>
             </div>
         </div>
