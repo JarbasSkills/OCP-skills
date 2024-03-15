@@ -146,9 +146,13 @@
                     <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
                     <!-- Preview images -->
                     <div class="preview-images">
-                        <img v-if="skill.images && skill.images.length > 0" :src="skill.images[0]" :data-source="skill.source" alt="Skill Image">
+                        <a v-if="skill.images && skill.images.length > 0" :href="skill.source" target="_blank" rel="noopener noreferrer">
+                            <img :src="skill.images[0]" alt="Skill Image">
+                        </a>
                         <!-- Use skill icon as the single image if no images available -->
-                        <img v-else :src="skill.icon" :data-source="skill.source" alt="Skill Icon">
+                        <a v-else :href="skill.source" target="_blank" rel="noopener noreferrer">
+                            <img :src="skill.icon" alt="Skill Icon">
+                        </a>
                     </div>
                     <!-- Examples -->
                     <div class="preview-examples" v-if="skill.examples && skill.examples.length">
