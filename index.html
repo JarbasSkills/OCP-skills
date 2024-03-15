@@ -128,21 +128,23 @@
                 <!-- Skill icon -->
                 <img :src="skill.icon" class="card-img-top" :alt="skill.name">
             </a>
+            <!-- Preview section -->
+            <div class="preview" v-if="skill.showPreview">
+                <!-- Picture slideshow -->
+                <div class="slideshow">
+                    <img v-for="image in skill.images" :src="image" class="slide" :key="image" :alt="skill.name">
+                </div>
+                <!-- Utterance examples -->
+                <div class="preview-content">
+                    <div class="utterances">
+                        <p v-for="(example, index) in skill.examples" :key="index" v-if="index < 5">{{ example }}</p>
+                    </div>
+                </div>
+            </div>
             <!-- Skill information -->
             <div class="card-body" @mouseover="showPreview(skill)" @mouseleave="hidePreview(skill)">
                 <h5 class="card-title">{{ skill.name }}</h5> <!-- Skill name -->
                 <p class="card-text">{{ skill.description }}</p> <!-- Skill description -->
-                <!-- Utterance examples -->
-                <div class="utterances">
-                    <p v-for="(example, index) in skill.examples" :key="index" v-if="index < 5">{{ example }}</p>
-                </div>
-                <!-- Preview section -->
-                <div class="preview" v-if="skill.showPreview">
-                    <!-- Picture slideshow -->
-                    <div class="slideshow">
-                        <img v-for="image in skill.images" :src="image" class="slide" :key="image" :alt="skill.name">
-                    </div>
-                </div>
                 <!-- Audio QR Code Install button -->
                 <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
             </div>
