@@ -13,14 +13,17 @@
         }
         
         .card {
-            width: 200px; /* Set fixed width for skill cards */
+            width: 200px;
+            height: 300px;
             margin-bottom: 20px;
             border: none;
             transition: all 0.3s;
-            position: relative; /* Add position relative for overlay positioning */
+            position: relative;
         }
         
         .card:hover {
+            width: 250px;
+            height: 350px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         
@@ -42,6 +45,7 @@
             background-color: rgba(255, 255, 255, 0.9);
             display: none;
             z-index: 2;
+            overflow: hidden;
         }
         
         .card:hover .card-overlay {
@@ -58,6 +62,9 @@
             background-color: #fff;
             padding: 20px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            width: 80%; /* Expand horizontally */
+            max-height: 80%; /* Limit height */
+            overflow-y: auto; /* Add vertical scroll if necessary */
         }
 
         .preview-container.show {
@@ -66,16 +73,32 @@
 
         .preview-images {
             position: relative;
+            margin-bottom: 20px;
         }
 
         .preview-images img {
             width: 100%;
             height: auto;
-            display: none;
         }
 
-        .preview-images img:first-child {
+        .preview-examples {
+            margin-bottom: 20px;
+        }
+
+        .audio-qr-code-install-button {
             display: block;
+            width: 100%;
+            padding: 8px 16px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 4px;
+            color: #fff;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .audio-qr-code-install-button:hover {
+            background-color: #0056b3;
         }
 
         /* CSS for arrows */
@@ -129,8 +152,6 @@
             <div class="card-body">
                 <h5 class="card-title">{{ skill.name }}</h5>
                 <p class="card-text">{{ skill.description }}</p>
-                <!-- Audio QR code install button -->
-                <button v-if="skill.images && skill.images.length" class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
             </div>
             <!-- Preview overlay -->
             <div class="card-overlay">
@@ -143,12 +164,14 @@
                         <div v-if="skill.images.length > 1" class="next" @click="nextSlide">&#10095;</div>
                     </div>
                     <!-- Examples -->
-                    <div class="preview-examples" v-if="skill.examples && skill.examples.length">
+                    <div class="preview-examples">
                         <h5>Examples:</h5>
-                        <ul>
-                            <li v-for="example in skill.examples" :key="example">{{ example }}</li>
+                        <ul v-if="skill.examples && skill.examples.length">
+                            <li v-for="(example, index) in skill.examples.slice(0, 5)" :key="index">{{ example }}</li>
                         </ul>
                     </div>
+                    <!-- Audio QR code install button -->
+                    <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
                 </div>
             </div>
         </div>
