@@ -140,10 +140,10 @@
                     <!-- Slideshow of images -->
                     <div class="preview-images">
                         <img v-for="(image, index) in skill.images" :key="index" :src="image" alt="Skill Image" :style="{ display: currentIndex === index ? 'block' : 'none' }">
-                        <!-- Left arrow -->
-                        <div class="prev" @click="prevSlide">&#10094;</div>
-                        <!-- Right arrow -->
-                        <div class="next" @click="nextSlide">&#10095;</div>
+                        <!-- Left arrow (only render if more than one image) -->
+                        <div v-if="skill.images.length > 1" class="prev" @click="prevSlide">&#10094;</div>
+                        <!-- Right arrow (only render if more than one image) -->
+                        <div v-if="skill.images.length > 1" class="next" @click="nextSlide">&#10095;</div>
                     </div>
                     <!-- Examples -->
                     <div class="preview-examples">
