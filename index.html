@@ -220,6 +220,10 @@
                     fetch('https://jarbasskills.github.io/OCP-skills/skills.json')
                         .then(response => response.json()) // Parse response as JSON
                         .then(data => {
+                            // Initialize showPreview property for each skill
+                            data.items.forEach(skill => {
+                                skill.showPreview = false;
+                            });
                             // Assign fetched skills to the data array
                             this.skills = data.items;
                         })
