@@ -149,7 +149,7 @@
                         <img :src="skill.images ? skill.images[0] : skill.icon" alt="Skill Image">
                     </div>
                     <!-- Examples -->
-                    <div class="preview-examples">
+                    <div class="preview-examples" v-if="skill.examples && skill.examples.length">
                         <h5>Examples:</h5>
                         <ul v-if="skill.examples && skill.examples.length">
                             <li v-for="(example, index) in skill.examples.slice(0, 5)" :key="index">{{ example }}</li>
