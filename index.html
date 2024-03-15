@@ -34,8 +34,10 @@
         
         .card-body {
             text-align: center;
+            overflow-y: auto; /* Add scrollbar for overflow */
+            max-height: 200px; /* Limit max height to control card size */
         }
-        
+
         .card-overlay {
             position: absolute;
             top: 0;
@@ -62,8 +64,8 @@
             background-color: #fff;
             padding: 20px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            width: 80%; /* Expand horizontally */
-            max-height: 80%; /* Limit height */
+            width: 90%; /* Expand horizontally */
+            max-height: 90%; /* Limit height */
             overflow-y: auto; /* Add vertical scroll if necessary */
         }
 
