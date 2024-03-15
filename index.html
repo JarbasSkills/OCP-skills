@@ -13,14 +13,22 @@
         }
         
         .card {
-            width: 200px;
-            height: 300px;
+            width: 200px; /* Set fixed width for skill cards */
             margin-bottom: 20px;
             border: none;
             transition: all 0.3s;
-            position: relative;
+            position: relative; /* Add position relative for overlay positioning */
+            height: auto; /* Set height to auto to accommodate variable text length */
         }
         
+        .card-body {
+            text-align: center;
+            height: 100%; /* Ensure card body fills the entire card height */
+            display: flex; /* Use flexbox for alignment */
+            flex-direction: column; /* Align items in a column */
+            justify-content: space-between; /* Distribute space evenly between items */
+        }
+
         .card:hover {
             width: 250px;
             height: 350px;
@@ -30,12 +38,6 @@
         .card-img-top {
             max-width: 100%;
             height: auto;
-        }
-        
-        .card-body {
-            text-align: center;
-            overflow-y: auto; /* Add scrollbar for overflow */
-            max-height: 200px; /* Limit max height to control card size */
         }
 
         .card-overlay {
