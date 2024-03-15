@@ -230,6 +230,12 @@
                     "ovos-plugin-gui"
                 ]
             },
+            "examples": [
+                "play {artist}",
+                "play {track}",
+                "play {album}",
+                "play {track} by {artist}"
+            ],
             "icon": "https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/folder-open.svg",
             "name": "Local Media",
             "description": "GUI File Browser For Open Voice OS. For voice search, this skill builds a local index of scanned user media.",
@@ -303,14 +309,12 @@
             "name": "BandCamp Skill",
             "description": "Bandcamp skill for your hipster music needs.",
             "examples": [
+                "play {artist/album/genre/track}",
                 "play compressorhead",
                 "play astronaut problems",
-                "play {artist/album/genre/track}",
-                "search bandcamp for black metal",
-                "search bandcamp for {artist/album/genre/track}",
                 "play center of all infinity album",
+                "search bandcamp for {artist/album/genre/track}",
                 "play {album} album",
-                "play freezing moon by mayhem",
                 "play {track} by {artist}"
             ],
             "tags": [
@@ -433,9 +437,10 @@
             "description": "Youtube videos. Search youtube by voice!",
             "examples": [
                 "play rob zombie",
-                "play freezing moon with dead on vocals",
                 "play programming music mix",
-                "play center of all infinity album"
+                "search youtube for {artist/album/genre/track}",
+                "play {album} album",
+                "play {track} by {artist}"
             ],
             "tags": [
                 "video",
