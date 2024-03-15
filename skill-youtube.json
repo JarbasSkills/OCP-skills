@@ -26,7 +26,7 @@
     "music"
   ],
   "images": [
-    "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/ui/gui.png",
-    "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/ui/gui2.png"
+    "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/gui.png",
+    "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/gui2.png"
   ]
 }

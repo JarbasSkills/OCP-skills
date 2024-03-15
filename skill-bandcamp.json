@@ -31,7 +31,6 @@
     "common play"
   ],
   "images": [
-    "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-bandcamp/dev/ui/logo.png",
     "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-bandcamp/dev/gui.gif"
   ]
 }
