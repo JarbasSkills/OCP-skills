@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OVOS Skills Hatchery</title>
+    <title>Jarbas OCP Skills</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* Custom CSS styles */
@@ -58,8 +58,8 @@
 <div id="app" class="container">
     <!-- Introduction section -->
     <div id="intro" class="jumbotron">
-        <h1 class="display-4">Welcome to the OVOS Hatchery!</h1>
-        <p class="lead">Adopt a skill! These skills are untested and unmaintained, they might be functional but are in need of a maintainer!</p>
+        <h1 class="display-4">Welcome to Jarbas OCP Skills!</h1>
+        <p class="lead">In this page you can find all my Media skills</p>
         <!-- Note about audio QR code installs -->
         <p>Note: Devices need to have the <a href="https://github.com/OpenVoiceOS/ovos-audio-transformer-plugin-ggwave">OVOS
             GGWave Plugin</a> installed and enabled for audio QR code installs to work. Skills will be installed directly from github</p>
@@ -174,7 +174,7 @@
                 // Method to fetch skills data
                 fetchSkills() {
                     // Fetch skills JSON data from the specified URL
-                    fetch('https://ovoshatchery.github.io/OVOS-Hatchery-skills/skills.json')
+                    fetch('https://jarbasskills.github.io/OCP-skills/skills.json')
                         .then(response => response.json()) // Parse response as JSON
                         .then(data => {
                             // Assign fetched skills to the data array
