@@ -156,8 +156,11 @@
             <!-- Preview overlay -->
             <div class="card-overlay">
                 <div class="preview-container">
+                    <!-- Preview images -->
                     <div class="preview-images">
-                        <img v-for="(image, index) in skill.images" :key="index" :src="image" alt="Skill Image" :style="{ display: currentIndex === index ? 'block' : 'none' }">
+                        <img v-if="skill.images && skill.images.length > 0" v-for="(image, index) in skill.images" :key="index" :src="image" alt="Skill Image" :style="{ display: currentIndex === index ? 'block' : 'none' }">
+                        <!-- Use skill icon as the single image if no images available -->
+                        <img v-else :src="skill.icon" alt="Skill Icon">
                         <!-- Left arrow (only render if more than one image) -->
                         <div v-if="skill.images.length > 1" class="prev" @click="prevSlide">&#10094;</div>
                         <!-- Right arrow (only render if more than one image) -->
@@ -245,7 +248,7 @@
         return new type(buffer);
     }
 
-    // Vue.js initialization
+ // Vue.js initialization
     document.addEventListener('DOMContentLoaded', function() {
         new Vue({
             el: '#app',
