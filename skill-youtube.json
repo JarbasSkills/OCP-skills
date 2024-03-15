@@ -15,9 +15,10 @@
   "description": "Youtube videos. Search youtube by voice!",
   "examples": [
     "play rob zombie",
-    "play freezing moon with dead on vocals",
     "play programming music mix",
-    "play center of all infinity album"
+    "search youtube for {artist/album/genre/track}",
+    "play {album} album",
+    "play {track} by {artist}"
   ],
   "tags": [
     "video",
