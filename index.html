@@ -146,12 +146,14 @@
                     <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
                     <!-- Preview images -->
                     <div class="preview-images">
-                        <img :src="skill.images ? skill.images[0] : skill.icon" alt="Skill Image">
+                        <img v-if="skill.images && skill.images.length > 0" :src="skill.images[0]" :data-source="skill.source" alt="Skill Image">
+                        <!-- Use skill icon as the single image if no images available -->
+                        <img v-else :src="skill.icon" :data-source="skill.source" alt="Skill Icon">
                     </div>
                     <!-- Examples -->
                     <div class="preview-examples" v-if="skill.examples && skill.examples.length">
                         <h5>Examples:</h5>
-                        <ul v-if="skill.examples && skill.examples.length">
+                        <ul>
                             <li v-for="(example, index) in skill.examples.slice(0, 5)" :key="index">{{ example }}</li>
                         </ul>
                     </div>
