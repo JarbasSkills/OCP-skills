@@ -16,10 +16,28 @@
             margin-bottom: 20px;
             border: none;
             transition: all 0.3s;
+            position: relative;
+            overflow: hidden;
         }
 
         .card:hover {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            z-index: 1;
+        }
+
+        .card:hover .card-overlay {
+            display: block;
+        }
+
+        .card-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            display: none;
+            z-index: 2;
         }
 
         .card-img-top {
@@ -28,29 +46,61 @@
             max-height: 100px; /* Limit image height */
         }
 
-        #skills-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
-            grid-gap: 20px; /* Spacing between cards */
+        .preview-container {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 3;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         }
 
-        .card-body {
-            text-align: center;
+        .preview-container.show {
+            display: block;
         }
 
-        .audio-qr-code-install-button {
-            margin-top: 10px;
-            padding: 8px 16px;
-            background-color: #007bff;
-            border: none;
-            border-radius: 4px;
-            color: #fff;
+        .preview-images {
+            position: relative;
+        }
+
+        .preview-images img {
+            width: 100%;
+            height: auto;
+            display: none;
+        }
+
+        .preview-images img:first-child {
+            display: block;
+        }
+
+        /* CSS for arrows */
+        .prev, .next {
             cursor: pointer;
-            transition: background-color 0.3s;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+            background-color: rgba(0, 0, 0, 0.3);
         }
 
-        .audio-qr-code-install-button:hover {
-            background-color: #0056b3;
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+            left: auto;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(0, 0, 0, 0.8);
         }
     </style>
 </head>
@@ -85,6 +135,26 @@
                     Install
                 </button>
             </div>
+            <!-- Preview overlay -->
+            <div class="card-overlay" @mouseover="showPreview" @mouseleave="hidePreview">
+                <div class="preview-container">
+                    <!-- Slideshow of images -->
+                    <div class="preview-images">
+                        <img v-for="(image, index) in skill.images" :key="index" :src="image" alt="Skill Image" :style="{ display: currentIndex === index ? 'block' : 'none' }">
+                        <!-- Left arrow -->
+                        <div class="prev" @click="prevSlide">&#10094;</div>
+                        <!-- Right arrow -->
+                        <div class="next" @click="nextSlide">&#10095;</div>
+                    </div>
+                    <!-- Examples -->
+                    <div class="preview-examples">
+                        <h5>Examples:</h5>
+                        <ul>
+                            <li v-for="example in skill.examples" :key="example">{{ example }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -100,7 +170,6 @@
 
 <!-- Vue.js library -->
 <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
-<!-- ggwave.js script -->
 <script type="text/javascript" src="ggwave.js"></script>
 <script type='text/javascript'>
     // Ensure variables are properly scoped
@@ -161,11 +230,8 @@
         new Vue({
             el: '#app',
             data: {
-                skills: [] // Array to store fetched skills
-            },
-            mounted() {
-                // Fetch skills when the component is mounted
-                this.fetchSkills();
+                skills: [], // Array to store fetched skills
+                currentIndex: 0 // Index of the currently displayed image in the slideshow
             },
             methods: {
                 // Method to fetch skills data
@@ -178,7 +244,31 @@
                             this.skills = data.items;
                         })
                         .catch(error => console.error('Error fetching skills:', error)); // Handle fetch errors
+                },
+                // Method to show the preview
+                showPreview(event) {
+                    event.currentTarget.querySelector('.preview-container').classList.add('show');
+                },
+                // Method to hide the preview
+                hidePreview(event) {
+                    event.currentTarget.querySelector('.preview-container').classList.remove('show');
+                },
+                // Method to navigate to the previous slide in the preview
+                prevSlide() {
+                    if (this.currentIndex > 0) {
+                        this.currentIndex--;
+                    }
+                },
+                // Method to navigate to the next slide in the preview
+                nextSlide() {
+                    if (this.currentIndex < this.skills[this.currentIndex].images.length - 1) {
+                        this.currentIndex++;
+                    }
                 }
+            },
+            mounted() {
+                // Fetch skills when the component is mounted
+                this.fetchSkills();
             }
         });
     });
