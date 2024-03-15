@@ -11,78 +11,33 @@
             background-color: #f8f9fa;
             padding-top: 20px;
         }
-    
+
         .card {
             margin-bottom: 20px;
             border: none;
             transition: all 0.3s;
-            position: relative;
-            overflow: hidden; /* Added */
         }
-    
+
         .card:hover {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-    
+
         .card-img-top {
             max-width: 100%;
             height: auto;
-            max-height: 150px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-            z-index: 2; 
-        }
-    
-        #skills-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            grid-gap: 20px;
-        }
-    
-        .card-body {
-            text-align: center;
-            position: relative;
-            z-index: 1;
-        }
-    
-        .preview {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(255, 255, 255, 0.9);
-            opacity: 0;
-            transition: opacity 0.3s ease-in-out;
-            pointer-events: none;
-            z-index: 3; /* Changed to be on top of the card */
-            overflow: hidden;
-        }
-    
-        .card:hover .preview {
-            opacity: 1;
-            pointer-events: auto;
-        }
-    
-        .preview-content {
-            padding: 20px;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 3; /* Adjusted to be on top of the skill card icon */
-        }
-    
-         .preview-content img {
-            max-width: 100%;
-            height: auto;
-            margin-bottom: 10px;
+            max-height: 100px; /* Limit image height */
         }
 
-    
+        #skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+            grid-gap: 20px; /* Spacing between cards */
+        }
+
+        .card-body {
+            text-align: center;
+        }
+
         .audio-qr-code-install-button {
             margin-top: 10px;
             padding: 8px 16px;
@@ -93,18 +48,11 @@
             cursor: pointer;
             transition: background-color 0.3s;
         }
-    
+
         .audio-qr-code-install-button:hover {
             background-color: #0056b3;
         }
-    
-        .utterances {
-            max-height: 100px;
-            overflow-y: auto;
-        }
     </style>
-    
-
 </head>
 <body>
 <div id="app" class="container">
@@ -118,7 +66,7 @@
         <hr class="my-4">
         <p>Below, you'll find a list of available skills:</p>
     </div>
-    
+
     <!-- Skills container -->
     <div id="skills-container">
         <!-- Skill cards generated dynamically using Vue.js -->
@@ -128,25 +76,14 @@
                 <!-- Skill icon -->
                 <img :src="skill.icon" class="card-img-top" :alt="skill.name">
             </a>
-            <!-- Preview section -->
-            <div class="preview" v-if="skill.showPreview">
-                <!-- Picture slideshow -->
-                <div class="slideshow">
-                    <img v-for="image in skill.images" :src="image" class="slide" :key="image" :alt="skill.name">
-                </div>
-                <!-- Utterance examples -->
-                <div class="preview-content">
-                    <div class="utterances">
-                        <p v-for="(example, index) in skill.examples" :key="index" v-if="index < 5">{{ example }}</p>
-                    </div>
-                </div>
-            </div>
             <!-- Skill information -->
-            <div class="card-body" @mouseover="showPreview(skill)" @mouseleave="hidePreview(skill)">
+            <div class="card-body">
                 <h5 class="card-title">{{ skill.name }}</h5> <!-- Skill name -->
                 <p class="card-text">{{ skill.description }}</p> <!-- Skill description -->
                 <!-- Audio QR Code Install button -->
-                <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
+                <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code
+                    Install
+                </button>
             </div>
         </div>
     </div>
@@ -237,22 +174,10 @@
                     fetch('https://jarbasskills.github.io/OCP-skills/skills.json')
                         .then(response => response.json()) // Parse response as JSON
                         .then(data => {
-                            // Initialize showPreview property for each skill
-                            data.items.forEach(skill => {
-                                skill.showPreview = false;
-                            });
                             // Assign fetched skills to the data array
                             this.skills = data.items;
                         })
                         .catch(error => console.error('Error fetching skills:', error)); // Handle fetch errors
-                },
-                // Show preview on mouseover
-                showPreview(skill) {
-                    skill.showPreview = true;
-                },
-                // Hide preview on mouse leave
-                hidePreview(skill) {
-                    skill.showPreview = false;
                 }
             }
         });
