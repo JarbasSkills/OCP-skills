@@ -16,6 +16,7 @@
             margin-bottom: 20px;
             border: none;
             transition: all 0.3s;
+            position: relative; /* Added */
         }
 
         .card:hover {
@@ -36,6 +37,41 @@
 
         .card-body {
             text-align: center;
+            position: relative; /* Added */
+            z-index: 1; /* Added */
+        }
+
+        .preview {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.9);
+            opacity: 0; /* Hidden by default */
+            transition: opacity 0.3s ease-in-out; /* Smooth transition */
+            pointer-events: none; /* Allows clicks to pass through */
+            z-index: 0; /* Behind the card content */
+        }
+
+        .card:hover .preview {
+            opacity: 1; /* Revealed on hover */
+            pointer-events: auto; /* Allow interaction */
+        }
+
+        .preview-content {
+            padding: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .preview-content img {
+            max-width: 100%;
+            height: auto;
+            max-height: 200px;
+            margin-bottom: 10px;
         }
 
         .audio-qr-code-install-button {
@@ -77,16 +113,26 @@
                 <img :src="skill.icon" class="card-img-top" :alt="skill.name">
             </a>
             <!-- Skill information -->
-            <div class="card-body">
+            <div class="card-body" @mouseover="showPreview(skill)" @mouseleave="hidePreview(skill)">
                 <h5 class="card-title">{{ skill.name }}</h5> <!-- Skill name -->
                 <p class="card-text">{{ skill.description }}</p> <!-- Skill description -->
+                <!-- Preview section -->
+                <div class="preview" v-if="skill.showPreview">
+                    <!-- Picture slideshow -->
+                    <div class="slideshow">
+                        <img v-for="image in skill.images" :src="image" class="slide" :key="image" :alt="skill.name">
+                    </div>
+                    <!-- Utterance examples -->
+                    <div class="utterances">
+                        <p v-for="example in skill.examples">{{ example }}</p>
+                    </div>
+                </div>
                 <!-- Audio QR Code Install button -->
-                <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code
-                    Install
-                </button>
+                <button class="audio-qr-code-install-button" @click="transmitPackage(skill.source)">Audio QR Code Install</button>
             </div>
         </div>
     </div>
+
 
     <!-- Additional information section -->
     <div id="additional-info" class="mt-5">
@@ -178,6 +224,14 @@
                             this.skills = data.items;
                         })
                         .catch(error => console.error('Error fetching skills:', error)); // Handle fetch errors
+                },
+                // Show preview on mouseover
+                showPreview(skill) {
+                    skill.showPreview = true;
+                },
+                // Hide preview on mouse leave
+                hidePreview(skill) {
+                    skill.showPreview = false;
                 }
             }
         });
