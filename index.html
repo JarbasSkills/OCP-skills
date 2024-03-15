@@ -31,7 +31,7 @@
 
         .card:hover {
             width: 250px;
-            height: 350px;
+            height: auto;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         
@@ -47,7 +47,7 @@
         .card-content.hidden {
             display: none;
         }
-
+        
         .card-overlay {
             position: absolute;
             top: 0;
@@ -74,13 +74,14 @@
             padding: 10px;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
             height: auto; /* Set height to auto to accommodate variable content */
-            width: 95%; /* Set width to 100% of parent container */
+            width: 100%; /* Set width to 100% of parent container */
+            max-width: calc(100% - 20px); /* Limit max-width to prevent overflow */
         }
-                
+        
         .preview-container.show {
             display: block;
         }
-
+        
         .preview-images {
             position: relative;
             margin-bottom: 20px;
