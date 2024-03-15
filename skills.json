@@ -83,8 +83,8 @@
             },
             "icon": "https://raw.githubusercontent.com/OVOSHatchery/ovos-skill-iheart/master/ui/iheart.png",
             "images": [
-                "https://raw.githubusercontent.com/OVOSHatchery/ovos-skill-iheart/master/ui/gui.png",
-                "https://raw.githubusercontent.com/OVOSHatchery/ovos-skill-iheart/master/ui/gui2.png"
+                "https://raw.githubusercontent.com/OVOSHatchery/ovos-skill-iheart/master/gui.png",
+                "https://raw.githubusercontent.com/OVOSHatchery/ovos-skill-iheart/master/gui2.png"
             ],
             "name": "IHeartRadio",
             "description": "OCP skill for IHeartRadio. Note: IHeartRadio only provides podcasts outside the US.",
@@ -321,7 +321,6 @@
                 "common play"
             ],
             "images": [
-                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-bandcamp/dev/ui/logo.png",
                 "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-bandcamp/dev/gui.gif"
             ]
         },
@@ -446,8 +445,8 @@
                 "music"
             ],
             "images": [
-                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/ui/gui.png",
-                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/ui/gui2.png"
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/gui.png",
+                "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/gui2.png"
             ]
         }
     ]
