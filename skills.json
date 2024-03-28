@@ -475,7 +475,7 @@
             "package_name": "ovos-skill-filmchest-vintage-cartoons",
             "pip_spec": "git+https://github.com/JarbasSkills/skill-film-chest-vintage-cartoons",
             "license": "Apache-2.0",
-            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-film-chest-vintage-cartoons/dev/filmchest.gif",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-film-chest-vintage-cartoons/master/ui/filmchest.gif",
             "images": [],
             "name": "FilmChest Vintage Cartoons",
             "description": "Stream vintage cartoons from FilmChest.",
