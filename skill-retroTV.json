@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-retrotv.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-retrotv",
+  "package_name": "ovos-skill-retrotv",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-retrotv",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-retrotv/dev/ui/retrotv_icon.jpg",
+  "images": [],
+  "name": "Retro TV Movies",
+  "description": "Play classic movies from the Retro TV collection.",
+  "examples": [
+    "play a classic movie from Retro TV",
+    "search for Sherlock Holmes movies"
+  ],
+  "tags": ["classic", "vintage", "movies", "entertainment"]
+}

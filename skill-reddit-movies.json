@@ -1,0 +1,21 @@
+{
+  "skill_id": "ovos-skill-reddit-movies.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-reddit-movies",
+  "package_name": "ovos-skill-reddit-movies",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-reddit-movies",
+  "license": "Apache-2.0",
+  "icon": "https://github.com/JarbasSkills/skill-reddit-movies/raw/dev/ui/logo.png",
+  "images": [
+    "https://github.com/JarbasSkills/skill-reddit-movies/raw/dev/gui.png"
+  ],
+  "name": "Reddit Movies",
+  "description": "Access and enjoy movies from r/FullLengthFilms, r/FullSciFiMovies, and r/fullmoviesonyoutube.",
+  "examples": [
+    "play reddit movies"
+  ],
+  "tags": [
+    "documentaries",
+    "educational",
+    "entertainment"
+  ]
+}
