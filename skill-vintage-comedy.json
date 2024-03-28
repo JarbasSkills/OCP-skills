@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-vintage-comedy.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-comedy-films",
+  "package_name": "ovos-skill-vintage-comedy",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-comedy-films",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-comedy-films/master/ui/comedyfilms_icon.gif",
+  "images": [],
+  "name": "Vintage Comedy Films",
+  "description": "Enjoy a collection of silent and black-and-white comedy films from the golden era of cinema.",
+  "examples": [
+    "play The Fatal Glass of Beer",
+    "find silent comedy films",
+    "show me black and white comedy movies"
+  ],
+  "tags": ["comedy", "films", "silent movie", "black and white", "entertainment"]
+}

@@ -1,0 +1,20 @@
+{
+  "skill_id": "ovos-skill-classic-scifi-horror.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-classic-scifi-horror",
+  "package_name": "ovos-skill-classic-scifi-horror",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-classic-scifi-horror",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-classic-scifi-horror/master/ui/scifihorror.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-classic-scifi-horror/master/gui.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-classic-scifi-horror/master/gui2.png"
+  ],
+  "name": "Classic Sci Fi Horror Collection",
+  "description": "Dive into a collection of science fiction and horror films featuring monsters, aliens, time travel, and more.",
+  "examples": [
+    "open classic scifi horror menu",
+    "play classic scifi movie",
+    "play public domain movie"
+  ],
+  "tags": ["feature-films", "movies", "video", "public-domain", "entertainment"]
+}
