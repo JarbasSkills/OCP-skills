@@ -291,6 +291,31 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-wayne-june-lovecraft.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-wayne-june-lovecraft",
+            "package_name": "ovos-skill-wayne-june-lovecraft",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-wayne-june-lovecraft",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-wayne-june-lovecraft/master/ui/logo.png",
+            "images": [],
+            "name": "Wayne June Readings of H. P. Lovecraft",
+            "description": "Enjoy Wayne June's readings of H. P. Lovecraft stories",
+            "examples": [
+                "read the thing on the doorstep",
+                "play the tomb by Lovecraft",
+                "read the shunned house by Wayne June",
+                "play Cthulhu",
+                "play Rats in the Walls"
+            ],
+            "tags": [
+                "audio",
+                "books",
+                "readings",
+                "lovecraft",
+                "entertainment"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-epic-horror-theatre.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-epic-horror-theatre",
             "package_name": "ovos-skill-epic-horror-theatre",
@@ -1075,6 +1100,26 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-vhorror.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-vhorror",
+            "package_name": "ovos-skill-vhorror",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-vhorror",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-vhorror/master/ui/vhorror_icon.jpg",
+            "images": [],
+            "name": "VHorror Skill",
+            "description": "Explore and watch horror movies with VHorror.",
+            "examples": [
+                "play a horror movie",
+                "watch VHorror",
+                "play DINOSAUR HOTEL"
+            ],
+            "tags": [
+                "movies",
+                "horror"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-starmedia.jarbasal",
             "source": "https://github.com/JarbasSkills/skill-starmedia",
             "package_name": "ovos-skill-starmedia",
@@ -1247,6 +1292,26 @@
                 "radio theatre",
                 "lovecraft",
                 "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-vadrenaline.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-vadrenaline",
+            "package_name": "ovos-skill-vadrenaline",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-vadrenaline",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-vadrenaline/master/ui/vadrenaline_icon.jpg",
+            "images": [],
+            "name": "VAdrenaline Skill",
+            "description": "Discover and watch adrenaline-filled movies with VAdrenaline.",
+            "examples": [
+                "play an adrenaline movie",
+                "watch VAdrenaline",
+                "play JURASSIC FEAR : PTERODACTYL"
+            ],
+            "tags": [
+                "movies",
+                "action"
             ]
         },
         {
@@ -1423,6 +1488,30 @@
             "images": [
                 "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/gui.png",
                 "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/gui2.png"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-vmovies.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-vmovies",
+            "package_name": "ovos-skill-vmovies",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-vmovies",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-vmovies/master/ui/vmovies_icon.jpg",
+            "images": [],
+            "name": "VMovies Skill",
+            "description": "Explore and watch a variety of movies with VMovies.",
+            "examples": [
+                "play a movie",
+                "watch VMovies",
+                "play DINOSAUR HOTEL"
+            ],
+            "tags": [
+                "movies",
+                "comedy",
+                "action",
+                "thriller",
+                "drama",
+                "sci fi"
             ]
         },
         {
