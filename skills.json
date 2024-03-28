@@ -442,6 +442,25 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-reddit-cartoons.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-reddit-cartoons",
+            "package_name": "ovos-skill-reddit-cartoons",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-reddit-cartoons",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-reddit-cartoons/raw/dev/ui/logo.png",
+            "name": "r/fullcartoonsonyoutube",
+            "description": "A skill that plays cartoons from the r/fullcartoonsonyoutube community on Reddit.",
+            "examples": [
+                "open r/fullcartoonsonyoutube",
+                "play reddit cartoons"
+            ],
+            "tags": [
+                "documentaries",
+                "educational",
+                "entertainment"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-cgbros.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-cgbros",
             "package_name": "ovos-skill-cgbros",
@@ -799,6 +818,29 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-popcornflix.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-popcornflix",
+            "package_name": "ovos-skill-popcornflix",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-popcornflix",
+            "license": "MIT",
+            "icon": "https://github.com/JarbasSkills/skill-popcornflix/raw/dev/ui/popcornflix_icon.jpg",
+            "images": [],
+            "name": "PopcornFlix Movies",
+            "description": "Discover and play movies available on PopcornFlix.",
+            "examples": [
+                "open popcornflix",
+                "play a horror movie on popcornflix",
+                "play movie on popcornflix"
+            ],
+            "tags": [
+                "entertainment",
+                "movies",
+                "video",
+                "streaming",
+                "popcornflix"
+            ]
+        },
+        {
             "skill_id": "skill-ovos-news.openvoiceos",
             "source": "https://github.com/OpenVoiceOS/skill-ovos-news",
             "package_name": "ovos-skill-ovos-news",
@@ -920,6 +962,32 @@
             ],
             "images": [
                 "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-bandcamp/dev/gui.gif"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-public-domain-cartoons.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-public-domain-cartoons",
+            "package_name": "ovos-skill-public-domain-cartoons",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-public-domain-cartoons",
+            "license": "MIT",
+            "icon": "https://github.com/JarbasSkills/skill-public-domain-cartoons/raw/dev/ui/pd-cartoons.png",
+            "images": [
+                "https://github.com/JarbasSkills/skill-public-domain-cartoons/raw/dev/gui.png",
+                "https://github.com/JarbasSkills/skill-public-domain-cartoons/raw/dev/gui2.png"
+            ],
+            "name": "Public Domain Cartoons",
+            "description": "Enjoy a collection of classic public domain cartoons.",
+            "examples": [
+                "open public domain cartoons",
+                "play old cartoon",
+                "play public domain movie"
+            ],
+            "tags": [
+                "entertainment",
+                "cartoons",
+                "movies",
+                "video",
+                "public-domain"
             ]
         },
         {
@@ -1127,7 +1195,7 @@
             "package_name": "ovos-skill-peerflix",
             "pip_spec": "git+https://github.com/JarbasSkills/skill-peerflix",
             "license": "Apache-2.0",
-            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-peerflix/dev/ui/magnet.png",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-peerflix/master/ui/magnet.png",
             "name": "Peerflix",
             "description": "Stream torrents in Mycroft-gui using peerflix!",
             "examples": [
