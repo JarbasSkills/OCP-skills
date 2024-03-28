@@ -218,6 +218,33 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-cinemocracy.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-cinemocracy",
+            "package_name": "ovos-skill-cinemocracy",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-cinemocracy",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/ovos-skill-cinemocracy-collection/master/ui/logo.jpeg",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/screenshot1.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/screenshot2.png"
+            ],
+            "name": "Cinemocracy Collection",
+            "description": "Explore the relationship between motion pictures and government with the Cinemocracy Collection from the 1940s.",
+            "examples": [
+                "open cinemocracy",
+                "play real war videos",
+                "play old war video",
+                "play cinemocracy"
+            ],
+            "tags": [
+                "public-domain",
+                "war",
+                "video",
+                "entertainment",
+                "information"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-cgbros.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-cgbros",
             "package_name": "ovos-skill-cgbros",
@@ -325,6 +352,29 @@
                 "audiobooks",
                 "literature",
                 "anarchy"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-chiptune-planet.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-chiptune-planet",
+            "package_name": "ovos-skill-chiptune-planet",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-chiptune-planet",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-chiptune-planet/dev/ui/chiptuneplanet_icon.jpg",
+            "images": [],
+            "name": "Chiptune Planet",
+            "description": "Stream and enjoy chiptune covers of various songs and game music.",
+            "examples": [
+                "play Megadeth chiptune",
+                "play chiptune covers",
+                "find chiptune music"
+            ],
+            "tags": [
+                "chiptune",
+                "music",
+                "covers",
+                "8-bit",
+                "game music"
             ]
         },
         {
