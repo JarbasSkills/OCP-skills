@@ -36,6 +36,27 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-full-free-films.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-fff",
+            "package_name": "ovos-skill-full-free-films",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-fff",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-fff/raw/dev/ui/fff_logo.png",
+            "images": [],
+            "name": "Full Free Films",
+            "description": "Discover and play movies from the Full Free Films library.",
+            "examples": [
+                "play THE BODY TREE from Full Free Films",
+                "search for horror movies on Full Free Films",
+                "play ZEITGEIST as a documentary from Full Free Films"
+            ],
+            "tags": [
+                "movies",
+                "entertainment",
+                "documentaries"
+            ]
+        },
+        {
             "skill_id": "skill-ovos-youtube-music.jarbasal",
             "source": "https://github.com/OpenVoiceOS/skill-ovos-youtube-music",
             "package_name": "ovos-skill-ovos-youtube-music",
@@ -97,6 +118,26 @@
                 "radio",
                 "OCP",
                 "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-family-central.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-family-central",
+            "package_name": "ovos-skill-family-central",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-family-central",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-family-central/raw/dev/ui/familycentral_icon.jpg",
+            "images": [],
+            "name": "Family Central",
+            "description": "Discover and play movies from the Family Central library.",
+            "examples": [
+                "play a Christmas Princess from Family Central",
+                "search for Christmas movies on Family Central"
+            ],
+            "tags": [
+                "movies",
+                "entertainment",
+                "family"
             ]
         },
         {
@@ -429,6 +470,27 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-filmchest-vintage-cartoons.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-film-chest-vintage-cartoons",
+            "package_name": "ovos-skill-filmchest-vintage-cartoons",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-film-chest-vintage-cartoons",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-film-chest-vintage-cartoons/dev/filmchest.gif",
+            "images": [],
+            "name": "FilmChest Vintage Cartoons",
+            "description": "Stream vintage cartoons from FilmChest.",
+            "examples": [
+                "play a vintage cartoon from FilmChest",
+                "find Betty Boop cartoons"
+            ],
+            "tags": [
+                "cartoons",
+                "vintage",
+                "filmchest",
+                "animation"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-reddit-documentaries.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-documentaries",
             "package_name": "ovos-skill-reddit-documentaries",
@@ -494,6 +556,26 @@
                 "silent movie",
                 "black and white",
                 "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-film-noir.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-film-noir",
+            "package_name": "ovos-skill-film-noir",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-film-noir",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-film-noir/main/ui/filmnoir_icon.gif",
+            "name": "Film Noir",
+            "description": "Stream and enjoy black-and-white movies from the Film Noir genre.",
+            "examples": [
+                "play A Colt Is My Passport",
+                "find Film Noir movies by a specific director"
+            ],
+            "tags": [
+                "movies",
+                "classics",
+                "black-and-white",
+                "genre"
             ]
         },
         {
