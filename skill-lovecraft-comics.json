@@ -1,0 +1,18 @@
+{
+  "skill_id": "ovos-skill-lovecraft-comics.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-dagon",
+  "package_name": "ovos-skill-lovecraft-comics",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-dagon",
+  "license": "Apache-2.0",
+  "icon": "https://github.com/JarbasSkills/skill-dagon/res/icon/dagon.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-dagon/dev/gui.gif",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-dagon/dev/gui2.gif"
+  ],
+  "name": "Lovecraft Comics",
+  "description": "Enjoy a collection of comic adaptations of stories by H. P. Lovecraft.",
+  "examples": [
+    "play lovecraft comics"
+  ],
+  "tags": ["audio", "books", "comics", "radio theatre", "lovecraft", "entertainment"]
+}
