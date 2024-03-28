@@ -4,7 +4,8 @@
   "package_name": "ovos-skill-reddit-cartoons",
   "pip_spec": "git+https://github.com/JarbasSkills/skill-reddit-cartoons",
   "license": "Apache-2.0",
-  "icon": "https://github.com/JarbasSkills/skill-reddit-cartoons/raw/dev/ui/logo.png",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-reddit-cartoons/master/ui/logo.png",
+  "images": ["https://raw.githubusercontent.com/JarbasSkills/skill-reddit-cartoons/master/gui.png"],
   "name": "r/fullcartoonsonyoutube",
   "description": "A skill that plays cartoons from the r/fullcartoonsonyoutube community on Reddit.",
   "examples": [
