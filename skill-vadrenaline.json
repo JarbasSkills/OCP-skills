@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-vadrenaline.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-vadrenaline",
+  "package_name": "ovos-skill-vadrenaline",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-vadrenaline",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-vadrenaline/master/ui/vadrenaline_icon.jpg",
+  "images": [],
+  "name": "VAdrenaline Skill",
+  "description": "Discover and watch adrenaline-filled movies with VAdrenaline.",
+  "examples": [
+    "play an adrenaline movie",
+    "watch VAdrenaline",
+    "play JURASSIC FEAR : PTERODACTYL"
+  ],
+  "tags": ["movies", "action"]
+}

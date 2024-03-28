@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-vhorror.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-vhorror",
+  "package_name": "ovos-skill-vhorror",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-vhorror",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-vhorror/master/ui/vhorror_icon.jpg",
+  "images": [],
+  "name": "VHorror Skill",
+  "description": "Explore and watch horror movies with VHorror.",
+  "examples": [
+    "play a horror movie",
+    "watch VHorror",
+    "play DINOSAUR HOTEL"
+  ],
+  "tags": ["movies", "horror"]
+}

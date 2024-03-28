@@ -1,0 +1,19 @@
+{
+  "skill_id": "ovos-skill-wayne-june-lovecraft.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-wayne-june-lovecraft",
+  "package_name": "ovos-skill-wayne-june-lovecraft",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-wayne-june-lovecraft",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-wayne-june-lovecraft/master/ui/logo.png",
+  "images": [],
+  "name": "Wayne June Readings of H. P. Lovecraft",
+  "description": "Enjoy Wayne June's readings of H. P. Lovecraft stories",
+  "examples": [
+    "read the thing on the doorstep",
+    "play the tomb by Lovecraft",
+    "read the shunned house by Wayne June",
+    "play Cthulhu",
+    "play Rats in the Walls"
+  ],
+  "tags": ["audio", "books", "readings", "lovecraft", "entertainment"]
+}

@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-vmovies.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-vmovies",
+  "package_name": "ovos-skill-vmovies",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-vmovies",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-vmovies/master/ui/vmovies_icon.jpg",
+  "images": [],
+  "name": "VMovies Skill",
+  "description": "Explore and watch a variety of movies with VMovies.",
+  "examples": [
+    "play a movie",
+    "watch VMovies",
+    "play DINOSAUR HOTEL"
+  ],
+  "tags": ["movies", "comedy", "action", "thriller", "drama", "sci fi"]
+}
