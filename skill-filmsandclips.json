@@ -1,0 +1,15 @@
+{
+  "skill_id": "ovos-skill-filmsandclips.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-filmsandclips",
+  "package_name": "ovos-skill-filmsandclips",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-filmsandclips/dev/ui/filmsandclips_icon.jpg",
+  "images": [],
+  "name": "FilmsAndClips",
+  "description": "A skill to search and play movies and documentaries from FilmAndClips.",
+  "examples": [
+    "play a movie by Piero Pierotti",
+    "find George Hilton movies"
+  ],
+  "tags": ["movies", "films", "documentaries"]
+}

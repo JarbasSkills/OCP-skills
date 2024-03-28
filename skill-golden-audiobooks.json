@@ -1,0 +1,21 @@
+{
+  "skill_id": "ovos-skill-golden-audiobooks.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-golden-audiobooks",
+  "package_name": "ovos-skill-golden-audiobooks",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-golden-audiobooks",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-golden-audiobooks/dev/ui/logo.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-golden-audiobooks/dev/gui.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-golden-audiobooks/dev/gui2.png"
+  ],
+  "name": "Golden Audio Books Skill",
+  "description": "Search and enjoy audiobooks from Golden AudioBooks.",
+  "examples": [
+    "read jurassic park"
+  ],
+  "tags": [
+    "audiobooks",
+    "common play"
+  ]
+}

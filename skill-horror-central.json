@@ -1,0 +1,15 @@
+{
+  "skill_id": "ovos-skill-horror-central.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-horror-central",
+  "package_name": "ovos-skill-horror-central",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-horror-central",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-horror-central/dev/ui/horrorcentral_icon.jpg",
+  "name": "Horror Central",
+  "description": "Stream horror movies from Horror Central.",
+  "examples": [
+    "play BIGFOOT VS ZOMBIES",
+    "search for a horror movie"
+  ],
+  "tags": ["movies", "horror", "streaming"]
+}
