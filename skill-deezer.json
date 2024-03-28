@@ -1,0 +1,13 @@
+{
+  "skill_id": "ovos-skill-deezer.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-deezer",
+  "package_name": "ovos-skill-deezer",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-deezer",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-deezer/dev/ui/deezer.png",
+  "images": [],
+  "name": "Deezer Skill",
+  "description": "Deezer skill for OVOS common play.",
+  "examples": [],
+  "tags": ["OpenVoiceOS", "common play", "music", "entertainment"]
+}

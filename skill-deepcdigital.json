@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-deepcdigital.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-deepcdigital",
+  "package_name": "ovos-skill-deepcdigital",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-deepcdigital",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-deepcdigital/dev/ui/deepcdigital_icon.jpg",
+  "images": [],
+  "name": "Deep C Digital",
+  "description": "Stream and enjoy a collection of movies and documentaries from Deep C Digital.",
+  "examples": [
+    "play Homecoming Massacre",
+    "play Is Genesis History",
+    "find documentaries from deep c digital"
+  ],
+  "tags": ["movies", "documentaries", "deep c digital", "horror", "entertainment"]
+}
