@@ -573,7 +573,7 @@
             "package_name": "ovos-skill-lovecraft-comics",
             "pip_spec": "git+https://github.com/JarbasSkills/skill-dagon",
             "license": "Apache-2.0",
-            "icon": "https://github.com/JarbasSkills/skill-dagon/res/icon/dagon.png",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-dagon/dev/ui/dagon.png",
             "images": [
                 "https://raw.githubusercontent.com/JarbasSkills/skill-dagon/dev/gui.gif",
                 "https://raw.githubusercontent.com/JarbasSkills/skill-dagon/dev/gui2.gif"
