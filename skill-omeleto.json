@@ -1,0 +1,21 @@
+{
+  "skill_id": "ovos-skill-omeleto.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-omeleto",
+  "package_name": "ovos-skill-omeleto",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-omeleto",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-omeleto/dev/ui/icon.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-omeleto/dev/gui.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-omeleto/dev/gui2.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-omeleto/dev/gui3.png"
+  ],
+  "name": "Omeleto",
+  "description": "Watch Omeleto short films on OpenVoiceOS.",
+  "examples": [
+    "open omeleto",
+    "play short movie",
+    "play omeleto"
+  ],
+  "tags": ["scifi", "shortfilms", "video", "entertainment"]
+}

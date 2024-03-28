@@ -1,0 +1,26 @@
+{
+  "skill_id": "ovos-skill-picfixer.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-picfixer",
+  "package_name": "ovos-skill-picfixer",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-picfixer",
+  "license": "Apache-2.0",
+  "icon": "https://github.com/JarbasSkills/skill-picfixer/raw/dev/ui/picfixer.png",
+  "images": [
+    "https://github.com/JarbasSkills/skill-picfixer/raw/dev/gui.png",
+    "https://github.com/JarbasSkills/skill-picfixer/raw/dev/gui2.png"
+  ],
+  "name": "Picfixer Feature Film Collection",
+  "description": "Enjoy a selection of free feature films from various genres such as comedy, drama, adventure, mystery, romance, sci-fi, horror, westerns, documentaries, and exploitation. Nostalgic double-feature theater programs are also available.",
+  "examples": [
+    "open pic fixer",
+    "play old movie",
+    "play public domain movie"
+  ],
+  "tags": [
+    "entertainment",
+    "feature-films",
+    "movies",
+    "video",
+    "public-domain"
+  ]
+}
