@@ -107,10 +107,10 @@
             "license": "Apache-2.0",
             "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/dev/res/icon/ccc_icon.png",
             "images": [
-                "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/gui4.png",
-                "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/gui2.png",
-                "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/gui.png",
-                "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/gui3.png"
+                "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/dev/gui3.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/dev/gui2.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/dev/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/dev/gui4.png"
             ],
             "name": "Cult Cinema Classics",
             "description": "Enjoy cult movie classics on OpenVoiceOS.",
@@ -223,7 +223,7 @@
             "package_name": "ovos-skill-cinemocracy",
             "pip_spec": "git+https://github.com/JarbasSkills/skill-cinemocracy",
             "license": "Apache-2.0",
-            "icon": "https://raw.githubusercontent.com/JarbasSkills/ovos-skill-cinemocracy-collection/master/ui/logo.jpeg",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/logo.jpeg",
             "images": [
                 "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/screenshot1.png",
                 "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/screenshot2.png"
