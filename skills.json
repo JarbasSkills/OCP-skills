@@ -225,8 +225,8 @@
             "license": "Apache-2.0",
             "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/logo.jpeg",
             "images": [
-                "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/screenshot1.png",
-                "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/screenshot2.png"
+                "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/gui2.png"
             ],
             "name": "Cinemocracy Collection",
             "description": "Explore the relationship between motion pictures and government with the Cinemocracy Collection from the 1940s.",
@@ -400,6 +400,31 @@
                 "films",
                 "silent movie",
                 "black and white",
+                "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-darker-projects.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-darker-projects",
+            "package_name": "ovos-skill-darker-projects",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-darker-projects",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-darker-projects/master/ui/logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-darker-projects/master/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-darker-projects/master/gui2.png"
+            ],
+            "name": "Darker Projects",
+            "description": "Enjoy a collection of audiobooks and radio theatre from Darker Projects.",
+            "examples": [
+                "play darker projects",
+                "find audiobooks from darker projects"
+            ],
+            "tags": [
+                "audiobooks",
+                "radio theatre",
+                "horror",
+                "darker projects",
                 "entertainment"
             ]
         },
