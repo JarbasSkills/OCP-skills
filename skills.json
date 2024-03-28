@@ -821,6 +821,26 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-storynory.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-storynory",
+            "package_name": "ovos-skill-storynory",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-storynory",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-storynory/master/ui/logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-storynory/master/gui.png"
+            ],
+            "name": "Storynory Skill",
+            "description": "Search Storynory by voice!",
+            "examples": [
+                "read Storynory"
+            ],
+            "tags": [
+                "audiobooks",
+                "kids"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-silent-hall-of-fame.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-silent-hall-of-fame",
             "package_name": "ovos-skill-silent-hall-of-fame",
@@ -1010,6 +1030,27 @@
                 "thriller",
                 "comedy",
                 "drama"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-starmedia.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-starmedia",
+            "package_name": "ovos-skill-starmedia",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-starmedia",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-starmedia/raw/dev/ui/starmedia_icon.jpg",
+            "images": [],
+            "name": "StarMedia Skill",
+            "description": "Enjoy movies, documentaries, and video episodes from StarMedia.",
+            "examples": [
+                "open StarMedia menu",
+                "play StarMedia content"
+            ],
+            "tags": [
+                "movies",
+                "documentaries",
+                "video episodes",
+                "entertainment"
             ]
         },
         {
@@ -1233,6 +1274,29 @@
                 "sci fi",
                 "disaster"
             ]
+        },
+        {
+            "skill_id": "ovos-skill-stephen-king-audio-books.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-stephen-king-audio-books",
+            "package_name": "ovos-skill-stephen-king-audio-books",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-stephen-king-audio-books",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-stephen-king-audiobooks/dev/ui/logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-stephen-king-audiobooks/dev/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-stephen-king-audiobooks/dev/gui2.png"
+            ],
+            "name": "Stephen King Audio Books Skill",
+            "description": "Search Stephen King audiobooks on OCP.",
+            "examples": [
+                "read dark tower by Stephen King"
+            ],
+            "tags": [
+                "audiobooks",
+                "librivox",
+                "common play"
+            ],
+            "author": "JarbasAl"
         },
         {
             "skill_id": "skill-ovos-soundcloud.openvoiceos",
