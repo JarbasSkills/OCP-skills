@@ -1,0 +1,22 @@
+{
+  "skill_id": "ovos-skill-kings-of-horror.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-kings-of-horror",
+  "package_name": "ovos-skill-kings-of-horror",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-kings-of-horror",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-kings-of-horror/dev/res/icon/kings_of_horror_icon.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-kings-of-horror/dev/gui.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-kings-of-horror/dev/gui.gif",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-kings-of-horror/dev/gui2.gif"
+  ],
+  "name": "Kings of Horror",
+  "description": "Watch indie horror movies from the Kings of Horror collection on OpenVoiceOS.",
+  "examples": [
+    "open horror movies menu",
+    "play ninja zombies movie",
+    "play horror movie",
+    "play indie horror movie"
+  ],
+  "tags": ["movies", "horror", "indie", "video", "entertainment"]
+}

@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-midnight-screening.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-midnightscreening",
+  "package_name": "ovos-skill-midnight-screening",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-midnightscreening",
+  "license": "Apache-2.0",
+  "icon": "https://github.com/JarbasSkills/skill-midnightscreening/raw/dev/ui/midnightscreening_icon.jpg",
+  "name": "Midnight Screening",
+  "description": "Discover and watch free movies from various genres on Midnight Screening.",
+  "examples": [
+    "watch horror movies",
+    "play action movies",
+    "play sci fi movies"
+  ],
+  "tags": ["movies", "video", "entertainment", "horror", "action", "thriller", "monster", "fantasy", "sci fi", "disaster"]
+}

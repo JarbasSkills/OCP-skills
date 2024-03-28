@@ -1,0 +1,19 @@
+{
+  "skill_id": "ovos-skill-mytmovies.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-mytmovies",
+  "package_name": "ovos-skill-mytmovies",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-mytmovies",
+  "license": "Apache-2.0",
+  "icon": "https://github.com/JarbasSkills/skill-mytmovies/raw/dev/ui/mytmovies_icon.jpg",
+  "name": "Myt Movies",
+  "description": "Discover and watch free movies from various genres on Myt Movies.",
+  "examples": [
+    "watch comedy movies",
+    "play family movies",
+    "play adventure movies",
+    "watch thriller movies",
+    "play action movies",
+    "watch JUNGLE WOLF"
+  ],
+  "tags": ["movies", "video", "entertainment", "comedy", "family", "adventure", "thriller", "action"]
+}

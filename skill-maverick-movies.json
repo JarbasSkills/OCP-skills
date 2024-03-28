@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-maverick-movies.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-maverickmovies",
+  "package_name": "ovos-skill-maverick-movies",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-maverickmovies",
+  "license": "MIT",
+  "icon": "https://github.com/JarbasSkills/skill-maverickmovies/raw/dev/ui/maverickmovies_icon.jpg",
+  "images": [],
+  "name": "Maverick Movies",
+  "description": "Search for movies and watch them with Maverick Movies on YouTube.",
+  "examples": [
+    "search for the aftermath movie",
+    "watch the aftermath movie"
+  ],
+  "tags": ["movies", "streaming", "youtube", "watch movies"]
+}

@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-loyalbooks.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-loyalbooks",
+  "package_name": "ovos-skill-loyalbooks",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-loyalbooks",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-loyalbooks/dev/ui/logo.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-loyalbooks/dev/gui.png"
+  ],
+  "name": "LoyalBooks",
+  "description": "Search and listen to audiobooks from LoyalBooks by voice.",
+  "examples": [
+    "read lovecraft"
+  ],
+  "tags": ["audiobooks", "librivox", "common play"]
+}
