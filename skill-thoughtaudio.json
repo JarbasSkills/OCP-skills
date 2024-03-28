@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-thoughtaudio.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-thoughtaudio",
+  "package_name": "ovos-skill-thoughtaudio",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-thoughtaudio",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-thoughtaudio/master/ui/logo.gif",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-thoughtaudio/master/gui2.png"
+  ],
+  "name": "Thought Audio Skill",
+  "description": "Search ThoughtAudio.com by voice!",
+  "examples": [
+    "read Nietzsche"
+  ],
+  "tags": ["audiobooks"]
+}

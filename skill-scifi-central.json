@@ -5,10 +5,7 @@
   "pip_spec": "git+https://github.com/JarbasSkills/skill-scifi-central",
   "license": "Apache-2.0",
   "icon": "https://github.com/JarbasSkills/skill-scifi-central/raw/dev/ui/scificentral_icon.jpg",
-  "images": [
-    "https://raw.githubusercontent.com/JarbasSkills/skill-scifi-central/dev/gui.png",
-    "https://raw.githubusercontent.com/JarbasSkills/skill-scifi-central/dev/gui2.png"
-  ],
+  "images": [],
   "name": "SciFi Central",
   "description": "Explore and enjoy a collection of Sci-Fi movies from SciFiCentral.",
   "examples": [

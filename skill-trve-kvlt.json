@@ -1,0 +1,21 @@
+{
+  "skill_id": "ovos-skill-trvekvlt.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-trve-kvlt",
+  "package_name": "ovos-skill-trvekvlt",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-trve-kvlt",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-trve-kvlt/master/res/trvekvlt_logo.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-trve-kvlt/master/res/gui.gif",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-trve-kvlt/master/res/gui.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-trve-kvlt/master/res/gui2.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-trve-kvlt/master/res/gui3.png"
+  ],
+  "name": "Black Metal Music Catalog Skill",
+  "description": "Extensive library of Black Metal music for OpenVoiceOS",
+  "examples": [
+    "open black metal menu",
+    "play black metal"
+  ],
+  "tags": ["music", "black-metal", "video", "entertainment"]
+}

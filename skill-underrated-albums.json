@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-underrated-albums.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-underrated-albums",
+  "package_name": "ovos-skill-underrated-albums",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-underrated-albums",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-underrated-albums/master/ui/underratedalbums_icon.jpg",
+  "images": [],
+  "name": "Underrated Albums Skill",
+  "description": "Discover underrated albums and music recommendations.",
+  "examples": [
+    "play underrated albums",
+    "find underrated music"
+  ],
+  "tags": ["music", "albums"]
+}
