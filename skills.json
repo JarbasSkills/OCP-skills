@@ -469,6 +469,27 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-western-central.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-western-central",
+            "package_name": "ovos-skill-western-central",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-western-central",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-western-central/dev/ui/westerncentral_icon.jpg",
+            "images": [],
+            "name": "Western Central Skill",
+            "description": "Explore and watch classic Western movies with Western Central.",
+            "examples": [
+                "play a Western movie",
+                "watch Western Central",
+                "play Kentucky Rifle"
+            ],
+            "tags": [
+                "movies",
+                "western",
+                "cowboy"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-filmsandclips.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-filmsandclips",
             "package_name": "ovos-skill-filmsandclips",
@@ -530,6 +551,28 @@
                 "CGBros",
                 "3D",
                 "CGI"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-youtubefullmovies.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-youtubefullmovies",
+            "package_name": "ovos-skill-youtubefullmovies",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-youtubefullmovies",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-youtube-movies/master/ui/logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-youtube-movies/master/gui.png"
+            ],
+            "name": "Youtube Movies Skill",
+            "description": "Stream full movies uploaded on YouTube!",
+            "examples": [
+                "play horror movie"
+            ],
+            "tags": [
+                "video",
+                "youtube",
+                "common play",
+                "music"
             ]
         },
         {
@@ -992,6 +1035,30 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-worldmovie-central.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-worldmovie-central",
+            "package_name": "ovos-skill-worldmovie-central",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-worldmovie-central",
+            "license": "Apache-2.0",
+            "icon": "path_to_worldmoviecentral_icon.jpg",
+            "images": [],
+            "name": "World Movie Central Skill",
+            "description": "Explore and watch a variety of movies with World Movie Central.",
+            "examples": [
+                "play a movie",
+                "watch World Movie Central",
+                "play Luna"
+            ],
+            "tags": [
+                "movies",
+                "action",
+                "horror",
+                "thriller",
+                "comedy",
+                "drama"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-chiptune-planet.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-chiptune-planet",
             "package_name": "ovos-skill-chiptune-planet",
@@ -1157,6 +1224,27 @@
             ],
             "tags": [
                 "audiobooks"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-wtvf-digital-grindhouse-drivein.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-WTvFDigitalGrindhouseDriveIn",
+            "package_name": "ovos-skill-wtvf-digital-grindhouse-drivein",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-WTvFDigitalGrindhouseDriveIn",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-WTvFDigitalGrindhouseDriveIn/dev/ui/logo.jpg",
+            "images": [],
+            "name": "WTvF Digital Grindhouse Drive In Skill",
+            "description": "Experience classic grindhouse movies with WTvF Digital Grindhouse Drive In.",
+            "examples": [
+                "play a grindhouse movie",
+                "watch WTvF Digital Grindhouse Drive In",
+                "play Plan 9 from Outer Space"
+            ],
+            "tags": [
+                "movies",
+                "horror",
+                "grindhouse"
             ]
         },
         {
