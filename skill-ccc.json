@@ -1,0 +1,23 @@
+{
+  "skill_id": "ovos-skill-cult-cinema-classics.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-ccc",
+  "package_name": "ovos-skill-cult-cinema-classics",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-ccc",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/res/ccc_logo.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/gui4.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/gui2.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/gui.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/gui3.png"
+  ],
+  "name": "Cult Cinema Classics",
+  "description": "Enjoy cult movie classics on OpenVoiceOS.",
+  "examples": [
+    "open cult movie classics menu",
+    "play zontar the thing from venus movie",
+    "play cult movie classics",
+    "play invasion of the saucer men"
+  ],
+  "tags": ["movies", "public domain", "classic movies", "video", "entertainment"]
+}

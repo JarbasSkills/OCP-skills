@@ -1,0 +1,19 @@
+{
+  "skill_id": "ovos-skill-audio-anarchy.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-audio-anarchy",
+  "package_name": "ovos-skill-audio-anarchy",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-audio-anarchy",
+  "license": "Apache-2.0",
+  "icon": "https://www.audioanarchy.org/ahead6.gif",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-audio-anarchy/dev/gui.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-audio-anarchy/dev/gui2.png"
+  ],
+  "name": "Audio Anarchy",
+  "description": "Stream and enjoy audiobooks from AudioAnarchy.",
+  "examples": [
+    "play an audiobook from AudioAnarchy",
+    "find anarchist literature"
+  ],
+  "tags": ["audiobooks", "literature", "anarchy"]
+}
