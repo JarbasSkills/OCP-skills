@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-western-central.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-western-central",
+  "package_name": "ovos-skill-western-central",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-western-central",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-western-central/dev/ui/westerncentral_icon.jpg",
+  "images": [],
+  "name": "Western Central Skill",
+  "description": "Explore and watch classic Western movies with Western Central.",
+  "examples": [
+    "play a Western movie",
+    "watch Western Central",
+    "play Kentucky Rifle"
+  ],
+  "tags": ["movies", "western", "cowboy"]
+}

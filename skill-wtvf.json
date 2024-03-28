@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-wtvf-digital-grindhouse-drivein.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-WTvFDigitalGrindhouseDriveIn",
+  "package_name": "ovos-skill-wtvf-digital-grindhouse-drivein",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-WTvFDigitalGrindhouseDriveIn",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-WTvFDigitalGrindhouseDriveIn/dev/ui/logo.jpg",
+  "images": [],
+  "name": "WTvF Digital Grindhouse Drive In Skill",
+  "description": "Experience classic grindhouse movies with WTvF Digital Grindhouse Drive In.",
+  "examples": [
+    "play a grindhouse movie",
+    "watch WTvF Digital Grindhouse Drive In",
+    "play Plan 9 from Outer Space"
+  ],
+  "tags": ["movies", "horror", "grindhouse"]
+}

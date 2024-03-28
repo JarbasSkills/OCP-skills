@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-youtubefullmovies.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-youtubefullmovies",
+  "package_name": "ovos-skill-youtubefullmovies",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-youtubefullmovies",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-youtube-movies/master/ui/logo.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-youtube-movies/master/gui.png"
+  ],
+  "name": "Youtube Movies Skill",
+  "description": "Stream full movies uploaded on YouTube!",
+  "examples": [
+    "play horror movie"
+  ],
+  "tags": ["video", "youtube", "common play", "music"]
+}

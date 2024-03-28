@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-worldmovie-central.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-worldmovie-central",
+  "package_name": "ovos-skill-worldmovie-central",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-worldmovie-central",
+  "license": "Apache-2.0",
+  "icon": "path_to_worldmoviecentral_icon.jpg",
+  "images": [],
+  "name": "World Movie Central Skill",
+  "description": "Explore and watch a variety of movies with World Movie Central.",
+  "examples": [
+    "play a movie",
+    "watch World Movie Central",
+    "play Luna"
+  ],
+  "tags": ["movies", "action", "horror", "thriller", "comedy", "drama"]
+}
