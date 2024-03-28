@@ -534,6 +534,25 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-underrated-albums.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-underrated-albums",
+            "package_name": "ovos-skill-underrated-albums",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-underrated-albums",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-underrated-albums/master/ui/underratedalbums_icon.jpg",
+            "images": [],
+            "name": "Underrated Albums Skill",
+            "description": "Discover underrated albums and music recommendations.",
+            "examples": [
+                "play underrated albums",
+                "find underrated music"
+            ],
+            "tags": [
+                "music",
+                "albums"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-retrotoons.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-retrotoons",
             "package_name": "ovos-skill-retrotoons",
@@ -777,6 +796,32 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-trvekvlt.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-trve-kvlt",
+            "package_name": "ovos-skill-trvekvlt",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-trve-kvlt",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-trve-kvlt/master/res/trvekvlt_logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-trve-kvlt/master/res/gui.gif",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-trve-kvlt/master/res/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-trve-kvlt/master/res/gui2.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-trve-kvlt/master/res/gui3.png"
+            ],
+            "name": "Black Metal Music Catalog Skill",
+            "description": "Extensive library of Black Metal music for OpenVoiceOS",
+            "examples": [
+                "open black metal menu",
+                "play black metal"
+            ],
+            "tags": [
+                "music",
+                "black-metal",
+                "video",
+                "entertainment"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-film-noir.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-film-noir",
             "package_name": "ovos-skill-film-noir",
@@ -803,10 +848,7 @@
             "pip_spec": "git+https://github.com/JarbasSkills/skill-scifi-central",
             "license": "Apache-2.0",
             "icon": "https://github.com/JarbasSkills/skill-scifi-central/raw/dev/ui/scificentral_icon.jpg",
-            "images": [
-                "https://raw.githubusercontent.com/JarbasSkills/skill-scifi-central/dev/gui.png",
-                "https://raw.githubusercontent.com/JarbasSkills/skill-scifi-central/dev/gui2.png"
-            ],
+            "images": [],
             "name": "SciFi Central",
             "description": "Explore and enjoy a collection of Sci-Fi movies from SciFiCentral.",
             "examples": [
@@ -1051,6 +1093,25 @@
                 "documentaries",
                 "video episodes",
                 "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-thoughtaudio.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-thoughtaudio",
+            "package_name": "ovos-skill-thoughtaudio",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-thoughtaudio",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-thoughtaudio/master/ui/logo.gif",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-thoughtaudio/master/gui2.png"
+            ],
+            "name": "Thought Audio Skill",
+            "description": "Search ThoughtAudio.com by voice!",
+            "examples": [
+                "read Nietzsche"
+            ],
+            "tags": [
+                "audiobooks"
             ]
         },
         {
