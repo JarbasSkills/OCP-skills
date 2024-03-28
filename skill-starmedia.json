@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-starmedia.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-starmedia",
+  "package_name": "ovos-skill-starmedia",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-starmedia",
+  "license": "Apache-2.0",
+  "icon": "https://github.com/JarbasSkills/skill-starmedia/raw/dev/ui/starmedia_icon.jpg",
+  "images": [],
+  "name": "StarMedia Skill",
+  "description": "Enjoy movies, documentaries, and video episodes from StarMedia.",
+  "examples": [
+    "open StarMedia menu",
+    "play StarMedia content"
+  ],
+  "tags": ["movies", "documentaries", "video episodes", "entertainment"]
+}

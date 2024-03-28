@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-storynory.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-storynory",
+  "package_name": "ovos-skill-storynory",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-storynory",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-storynory/master/ui/logo.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-storynory/master/gui.png"
+  ],
+  "name": "Storynory Skill",
+  "description": "Search Storynory by voice!",
+  "examples": [
+    "read Storynory"
+  ],
+  "tags": ["audiobooks", "kids"]
+}

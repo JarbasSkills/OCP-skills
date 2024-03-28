@@ -1,0 +1,19 @@
+{
+  "skill_id": "ovos-skill-stephen-king-audio-books.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-stephen-king-audio-books",
+  "package_name": "ovos-skill-stephen-king-audio-books",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-stephen-king-audio-books",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-stephen-king-audiobooks/dev/ui/logo.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-stephen-king-audiobooks/dev/gui.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-stephen-king-audiobooks/dev/gui2.png"
+  ],
+  "name": "Stephen King Audio Books Skill",
+  "description": "Search Stephen King audiobooks on OCP.",
+  "examples": [
+    "read dark tower by Stephen King"
+  ],
+  "tags": ["audiobooks", "librivox", "common play"],
+  "author": "JarbasAl"
+}
