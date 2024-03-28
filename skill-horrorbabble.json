@@ -1,0 +1,19 @@
+{
+  "skill_id": "ovos-skill-horror-babble.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-horror-babble",
+  "package_name": "ovos-skill-horror-babble",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-horror-babble",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-horror-babble/dev/res/icon/horrorbabble_icon.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-horror-babble/dev/gui.gif",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-horror-babble/dev/gui.png"
+  ],
+  "name": "HorrorBabble",
+  "description": "Listen to audio horror readings of Lovecraftian stories from HorrorBabble.",
+  "examples": [
+    "open horror babble menu",
+    "play horror audio books"
+  ],
+  "tags": ["audiobooks", "horror", "lovecraftian", "entertainment"]
+}
