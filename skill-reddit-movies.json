@@ -4,9 +4,9 @@
   "package_name": "ovos-skill-reddit-movies",
   "pip_spec": "git+https://github.com/JarbasSkills/skill-reddit-movies",
   "license": "Apache-2.0",
-  "icon": "https://github.com/JarbasSkills/skill-reddit-movies/raw/dev/ui/logo.png",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-reddit-movies/master/ui/logo.png",
   "images": [
-    "https://github.com/JarbasSkills/skill-reddit-movies/raw/dev/gui.png"
+    "https://raw.githubusercontent.com/JarbasSkills/skill-reddit-movies/master/gui.png"
   ],
   "name": "Reddit Movies",
   "description": "Access and enjoy movies from r/FullLengthFilms, r/FullSciFiMovies, and r/fullmoviesonyoutube.",
