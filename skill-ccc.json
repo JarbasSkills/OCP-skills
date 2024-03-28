@@ -4,7 +4,7 @@
   "package_name": "ovos-skill-cult-cinema-classics",
   "pip_spec": "git+https://github.com/JarbasSkills/skill-ccc",
   "license": "Apache-2.0",
-  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/res/ccc_logo.png",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/dev/res/icon/ccc_icon.png",
   "images": [
     "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/gui4.png",
     "https://raw.githubusercontent.com/JarbasSkills/skill-ccc/gui2.png",

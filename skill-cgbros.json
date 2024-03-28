@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-cgbros.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-cgbros",
+  "package_name": "ovos-skill-cgbros",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-cgbros",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-cgbros/dev/ui/cgbros_icon.jpg",
+  "images": [],
+  "name": "The CGBros",
+  "description": "Stream and enjoy short films and animations from The CGBros.",
+  "examples": [
+    "play something from Masters of Pie",
+    "show me a short film by The CGBros",
+    "find animated shorts"
+  ],
+  "tags": ["short films", "animations", "CGBros", "3D", "CGI"]
+}
