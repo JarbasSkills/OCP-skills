@@ -1,0 +1,20 @@
+{
+  "skill_id": "ovos-skill-smod.jarbasal",
+  "source": "https://github.com/JarbasSkills/skill-smod",
+  "package_name": "ovos-skill-smod",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-smod",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-smod/dev/res/smod_logo.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-smod/dev/gui.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-smod/dev/gui.gif",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-smod/dev/gui2.gif"
+  ],
+  "name": "Stoned Meadow of Doom Skill",
+  "description": "Stoner Doom for OpenVoiceOS",
+  "examples": [
+    "open stoned meadow of doom",
+    "play stoner doom"
+  ],
+  "tags": ["music", "doom", "video", "entertainment"]
+}

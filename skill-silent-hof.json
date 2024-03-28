@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-silent-hall-of-fame.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-silent-hall-of-fame",
+  "package_name": "ovos-skill-silent-hall-of-fame",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-silent-hall-of-fame",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-silent-hall-of-fame/master/ui/silent_hof_icon.gif",
+  "images": [],
+  "name": "Silent Hall Of Fame",
+  "description": "Discover and enjoy classic silent movies from the Silent Hall Of Fame collection.",
+  "examples": [
+    "play a silent movie with Lon Chaney",
+    "find black and white films on Silent Hall Of Fame"
+  ],
+  "tags": ["silent movies", "classic films", "entertainment", "black and white"]
+}
