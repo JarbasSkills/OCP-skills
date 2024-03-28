@@ -468,7 +468,10 @@
             "package_name": "ovos-skill-reddit-cartoons",
             "pip_spec": "git+https://github.com/JarbasSkills/skill-reddit-cartoons",
             "license": "Apache-2.0",
-            "icon": "https://github.com/JarbasSkills/skill-reddit-cartoons/raw/dev/ui/logo.png",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-reddit-cartoons/master/ui/logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-reddit-cartoons/master/gui.png"
+            ],
             "name": "r/fullcartoonsonyoutube",
             "description": "A skill that plays cartoons from the r/fullcartoonsonyoutube community on Reddit.",
             "examples": [
@@ -1031,18 +1034,15 @@
             "source": "https://github.com/JarbasSkills/skill-public-domain-cartoons",
             "package_name": "ovos-skill-public-domain-cartoons",
             "pip_spec": "git+https://github.com/JarbasSkills/skill-public-domain-cartoons",
-            "license": "MIT",
+            "license": "Apache-2.0",
             "icon": "https://github.com/JarbasSkills/skill-public-domain-cartoons/raw/dev/ui/pd-cartoons.png",
-            "images": [
-                "https://github.com/JarbasSkills/skill-public-domain-cartoons/raw/dev/gui.png",
-                "https://github.com/JarbasSkills/skill-public-domain-cartoons/raw/dev/gui2.png"
-            ],
+            "images": [],
             "name": "Public Domain Cartoons",
             "description": "Enjoy a collection of classic public domain cartoons.",
             "examples": [
                 "open public domain cartoons",
                 "play old cartoon",
-                "play public domain movie"
+                "play public domain toon"
             ],
             "tags": [
                 "entertainment",
