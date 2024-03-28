@@ -159,6 +159,54 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-epic-horror-theatre.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-epic-horror-theatre",
+            "package_name": "ovos-skill-epic-horror-theatre",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-epic-horror-theatre",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-epic-horror-theatre/raw/main/ui/logo.png",
+            "images": [
+                "https://github.com/JarbasSkills/skill-epic-horror-theatre/raw/main/gui.gif"
+            ],
+            "name": "Epic Horror Theatre",
+            "description": "Radio drama adaptations of H.P. Lovecraft stories from the Atlanta Radio Theatre Company.",
+            "examples": [
+                "play lovecraft radio theatre"
+            ],
+            "tags": [
+                "audio",
+                "books",
+                "radio theatre",
+                "lovecraft",
+                "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-dust.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-dust",
+            "package_name": "ovos-skill-dust",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-dust",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-dust/dev/res/dust_logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-dust/dev/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-dust/dev/gui2.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-dust/dev/gui3.png"
+            ],
+            "name": "DUST",
+            "description": "Enjoy short science fiction movies from DUST.",
+            "examples": [
+                "play sci fi short movie",
+                "play dust"
+            ],
+            "tags": [
+                "scifi",
+                "shortfilms",
+                "video",
+                "entertainment"
+            ]
+        },
+        {
             "skill_id": "skill-ovos-tunein.openvoiceos",
             "source": "https://github.com/OpenVoiceOS/skill-ovos-tunein",
             "package_name": "ovos-skill-ovos-tunein",
