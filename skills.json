@@ -332,6 +332,32 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-classic-scifi-horror.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-classic-scifi-horror",
+            "package_name": "ovos-skill-classic-scifi-horror",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-classic-scifi-horror",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-classic-scifi-horror/master/ui/scifihorror.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-classic-scifi-horror/master/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-classic-scifi-horror/master/gui2.png"
+            ],
+            "name": "Classic Sci Fi Horror Collection",
+            "description": "Dive into a collection of science fiction and horror films featuring monsters, aliens, time travel, and more.",
+            "examples": [
+                "open classic scifi horror menu",
+                "play classic scifi movie",
+                "play public domain movie"
+            ],
+            "tags": [
+                "feature-films",
+                "movies",
+                "video",
+                "public-domain",
+                "entertainment"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-audio-anarchy.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-audio-anarchy",
             "package_name": "ovos-skill-audio-anarchy",
@@ -352,6 +378,29 @@
                 "audiobooks",
                 "literature",
                 "anarchy"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-vintage-comedy.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-comedy-films",
+            "package_name": "ovos-skill-vintage-comedy",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-comedy-films",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-comedy-films/master/ui/comedyfilms_icon.gif",
+            "images": [],
+            "name": "Vintage Comedy Films",
+            "description": "Enjoy a collection of silent and black-and-white comedy films from the golden era of cinema.",
+            "examples": [
+                "play The Fatal Glass of Beer",
+                "find silent comedy films",
+                "show me black and white comedy movies"
+            ],
+            "tags": [
+                "comedy",
+                "films",
+                "silent movie",
+                "black and white",
+                "entertainment"
             ]
         },
         {
