@@ -762,14 +762,14 @@
         },
         {
             "skill_id": "ovos-skill-horror-babble.jarbasai",
-            "source": "https://github.com/JarbasSkills/skill-horror-babble",
+            "source": "https://github.com/JarbasSkills/skill-horrorbabble",
             "package_name": "ovos-skill-horror-babble",
-            "pip_spec": "git+https://github.com/JarbasSkills/skill-horror-babble",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-horrorbabble",
             "license": "Apache-2.0",
-            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-horror-babble/dev/res/icon/horrorbabble_icon.png",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-horrorbabble/dev/res/horrorbabble_logo.png",
             "images": [
-                "https://raw.githubusercontent.com/JarbasSkills/skill-horror-babble/dev/gui.gif",
-                "https://raw.githubusercontent.com/JarbasSkills/skill-horror-babble/dev/gui.png"
+                "https://raw.githubusercontent.com/JarbasSkills/skill-horrorbabble/dev/gui.gif",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-horrorbabble/dev/gui.png"
             ],
             "name": "HorrorBabble",
             "description": "Listen to audio horror readings of Lovecraftian stories from HorrorBabble.",
