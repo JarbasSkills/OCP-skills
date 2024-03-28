@@ -4,7 +4,7 @@
   "package_name": "ovos-skill-cinemocracy",
   "pip_spec": "git+https://github.com/JarbasSkills/skill-cinemocracy",
   "license": "Apache-2.0",
-  "icon": "https://raw.githubusercontent.com/JarbasSkills/ovos-skill-cinemocracy-collection/master/ui/logo.jpeg",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/logo.jpeg",
   "images": [
     "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/screenshot1.png",
     "https://raw.githubusercontent.com/JarbasSkills/skill-cinemocracy/master/ui/screenshot2.png"
