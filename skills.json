@@ -797,6 +797,51 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-sci-fi-central.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-scifi-central",
+            "package_name": "ovos-skill-sci-fi-central",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-scifi-central",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-scifi-central/raw/dev/ui/scificentral_icon.jpg",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-scifi-central/dev/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-scifi-central/dev/gui2.png"
+            ],
+            "name": "SciFi Central",
+            "description": "Explore and enjoy a collection of Sci-Fi movies from SciFiCentral.",
+            "examples": [
+                "play a Sci-Fi movie from SciFi Central",
+                "find science fiction films on SciFi Central"
+            ],
+            "tags": [
+                "Sci-Fi",
+                "movies",
+                "science fiction",
+                "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-silent-hall-of-fame.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-silent-hall-of-fame",
+            "package_name": "ovos-skill-silent-hall-of-fame",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-silent-hall-of-fame",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-silent-hall-of-fame/master/ui/silent_hof_icon.gif",
+            "images": [],
+            "name": "Silent Hall Of Fame",
+            "description": "Discover and enjoy classic silent movies from the Silent Hall Of Fame collection.",
+            "examples": [
+                "play a silent movie with Lon Chaney",
+                "find black and white films on Silent Hall Of Fame"
+            ],
+            "tags": [
+                "silent movies",
+                "classic films",
+                "entertainment",
+                "black and white"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-deezer.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-deezer",
             "package_name": "ovos-skill-deezer",
@@ -1053,6 +1098,31 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-smod.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-smod",
+            "package_name": "ovos-skill-smod",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-smod",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-smod/dev/res/smod_logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-smod/dev/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-smod/dev/gui.gif",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-smod/dev/gui2.gif"
+            ],
+            "name": "Stoned Meadow of Doom Skill",
+            "description": "Stoner Doom for OpenVoiceOS",
+            "examples": [
+                "open stoned meadow of doom",
+                "play stoner doom"
+            ],
+            "tags": [
+                "music",
+                "doom",
+                "video",
+                "entertainment"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-lovecraft-comics.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-dagon",
             "package_name": "ovos-skill-lovecraft-comics",
@@ -1296,6 +1366,30 @@
                 "adventure",
                 "thriller",
                 "action"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-sovietwave.jarbasal",
+            "source": "https://github.com/JarbasSkills/skill-sovietwave",
+            "package_name": "ovos-skill-sovietwave",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-sovietwave",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-sovietwave/dev/res/sovietwave_logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-sovietwave/dev/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-sovietwave/dev/gui.gif"
+            ],
+            "name": "SovietWave Skill",
+            "description": "SovietWave Radio for OpenVoiceOS",
+            "examples": [
+                "open sovietwave menu",
+                "play sovietwave radio"
+            ],
+            "tags": [
+                "music",
+                "sovietwave",
+                "radio",
+                "entertainment"
             ]
         },
         {
