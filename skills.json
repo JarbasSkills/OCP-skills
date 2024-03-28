@@ -381,6 +381,28 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-reddit-documentaries.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-documentaries",
+            "package_name": "ovos-skill-reddit-documentaries",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-documentaries",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-documentaries/dev/res/documentaries_logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-documentaries/dev/gui2.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-documentaries/dev/gui.png"
+            ],
+            "name": "r/Documentaries",
+            "description": "Documentaries shared on r/Documentaries.",
+            "examples": [
+                "play a documentary"
+            ],
+            "tags": [
+                "documentaries",
+                "educational",
+                "entertainment"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-deepcdigital.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-deepcdigital",
             "package_name": "ovos-skill-deepcdigital",
@@ -441,6 +463,26 @@
                 "OpenVoiceOS",
                 "common play",
                 "music",
+                "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-documentary-central.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-documentary-central",
+            "package_name": "ovos-skill-documentary-central",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-documentary-central",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-documentary-central/dev/ui/documentarycentral_icon.jpg",
+            "images": [],
+            "name": "Documentary Central",
+            "description": "Discover and play documentaries from Documentary Central.",
+            "examples": [
+                "play a documentary",
+                "find a documentary about space"
+            ],
+            "tags": [
+                "documentaries",
+                "education",
                 "entertainment"
             ]
         },
