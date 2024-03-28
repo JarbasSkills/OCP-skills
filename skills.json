@@ -191,6 +191,27 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-reddit-movies.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-reddit-movies",
+            "package_name": "ovos-skill-reddit-movies",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-reddit-movies",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-reddit-movies/raw/dev/ui/logo.png",
+            "images": [
+                "https://github.com/JarbasSkills/skill-reddit-movies/raw/dev/gui.png"
+            ],
+            "name": "Reddit Movies",
+            "description": "Access and enjoy movies from r/FullLengthFilms, r/FullSciFiMovies, and r/fullmoviesonyoutube.",
+            "examples": [
+                "play reddit movies"
+            ],
+            "tags": [
+                "documentaries",
+                "educational",
+                "entertainment"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-golden-audiobooks.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-golden-audiobooks",
             "package_name": "ovos-skill-golden-audiobooks",
@@ -510,6 +531,26 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-retrotoons.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-retrotoons",
+            "package_name": "ovos-skill-retrotoons",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-retrotoons",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-retrotoons/dev/ui/retrotoons_icon.jpg",
+            "images": [],
+            "name": "Retro Toons",
+            "description": "Enjoy retro cartoons from various streaming providers.",
+            "examples": [
+                "play superman",
+                "play RetroToons"
+            ],
+            "tags": [
+                "retro",
+                "cartoons",
+                "streaming"
+            ]
+        },
+        {
             "skill_id": "skill-old-world-radio.openvoiceos",
             "source": "https://github.com/OVOSHatchery/ovos-skill-old-world-radio",
             "package_name": "ovos-skill-old-world-radio",
@@ -641,6 +682,27 @@
                 "vintage",
                 "filmchest",
                 "animation"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-retrotv.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-retrotv",
+            "package_name": "ovos-skill-retrotv",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-retrotv",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-retrotv/dev/ui/retrotv_icon.jpg",
+            "images": [],
+            "name": "Retro TV Movies",
+            "description": "Play classic movies from the Retro TV collection.",
+            "examples": [
+                "play a classic movie from Retro TV",
+                "search for Sherlock Holmes movies"
+            ],
+            "tags": [
+                "classic",
+                "vintage",
+                "movies",
+                "entertainment"
             ]
         },
         {
