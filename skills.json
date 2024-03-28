@@ -381,6 +381,29 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-deepcdigital.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-deepcdigital",
+            "package_name": "ovos-skill-deepcdigital",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-deepcdigital",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-deepcdigital/dev/ui/deepcdigital_icon.jpg",
+            "images": [],
+            "name": "Deep C Digital",
+            "description": "Stream and enjoy a collection of movies and documentaries from Deep C Digital.",
+            "examples": [
+                "play Homecoming Massacre",
+                "play Is Genesis History",
+                "find documentaries from deep c digital"
+            ],
+            "tags": [
+                "movies",
+                "documentaries",
+                "deep c digital",
+                "horror",
+                "entertainment"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-vintage-comedy.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-comedy-films",
             "package_name": "ovos-skill-vintage-comedy",
@@ -400,6 +423,24 @@
                 "films",
                 "silent movie",
                 "black and white",
+                "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-deezer.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-deezer",
+            "package_name": "ovos-skill-deezer",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-deezer",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-deezer/dev/ui/deezer.png",
+            "images": [],
+            "name": "Deezer Skill",
+            "description": "Deezer skill for OVOS common play.",
+            "examples": [],
+            "tags": [
+                "OpenVoiceOS",
+                "common play",
+                "music",
                 "entertainment"
             ]
         },
