@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-epic-horror-theatre.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-epic-horror-theatre",
+  "package_name": "ovos-skill-epic-horror-theatre",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-epic-horror-theatre",
+  "license": "Apache-2.0",
+  "icon": "https://github.com/JarbasSkills/skill-epic-horror-theatre/raw/main/ui/logo.png",
+  "images": [
+    "https://github.com/JarbasSkills/skill-epic-horror-theatre/raw/main/gui.gif"
+  ],
+  "name": "Epic Horror Theatre",
+  "description": "Radio drama adaptations of H.P. Lovecraft stories from the Atlanta Radio Theatre Company.",
+  "examples": [
+    "play lovecraft radio theatre"
+  ],
+  "tags": ["audio", "books", "radio theatre", "lovecraft", "entertainment"]
+}

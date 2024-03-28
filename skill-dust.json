@@ -1,0 +1,20 @@
+{
+  "skill_id": "ovos-skill-dust.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-dust",
+  "package_name": "ovos-skill-dust",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-dust",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-dust/dev/res/dust_logo.png",
+  "images": [
+    "https://raw.githubusercontent.com/JarbasSkills/skill-dust/dev/gui.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-dust/dev/gui2.png",
+    "https://raw.githubusercontent.com/JarbasSkills/skill-dust/dev/gui3.png"
+  ],
+  "name": "DUST",
+  "description": "Enjoy short science fiction movies from DUST.",
+  "examples": [
+    "play sci fi short movie",
+    "play dust"
+  ],
+  "tags": ["scifi", "shortfilms", "video", "entertainment"]
+}
