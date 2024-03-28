@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-chiptune-planet.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-chiptune-planet",
+  "package_name": "ovos-skill-chiptune-planet",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-chiptune-planet",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-chiptune-planet/dev/ui/chiptuneplanet_icon.jpg",
+  "images": [],
+  "name": "Chiptune Planet",
+  "description": "Stream and enjoy chiptune covers of various songs and game music.",
+  "examples": [
+    "play Megadeth chiptune",
+    "play chiptune covers",
+    "find chiptune music"
+  ],
+  "tags": ["chiptune", "music", "covers", "8-bit", "game music"]
+}
