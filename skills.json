@@ -36,6 +36,27 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-maverick-movies.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-maverickmovies",
+            "package_name": "ovos-skill-maverick-movies",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-maverickmovies",
+            "license": "MIT",
+            "icon": "https://github.com/JarbasSkills/skill-maverickmovies/raw/dev/ui/maverickmovies_icon.jpg",
+            "images": [],
+            "name": "Maverick Movies",
+            "description": "Search for movies and watch them with Maverick Movies on YouTube.",
+            "examples": [
+                "search for the aftermath movie",
+                "watch the aftermath movie"
+            ],
+            "tags": [
+                "movies",
+                "streaming",
+                "youtube",
+                "watch movies"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-full-free-films.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-fff",
             "package_name": "ovos-skill-full-free-films",
@@ -218,6 +239,34 @@
                 "music",
                 "OCP",
                 "voice-search"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-kings-of-horror.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-kings-of-horror",
+            "package_name": "ovos-skill-kings-of-horror",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-kings-of-horror",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-kings-of-horror/dev/res/icon/kings_of_horror_icon.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-kings-of-horror/dev/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-kings-of-horror/dev/gui.gif",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-kings-of-horror/dev/gui2.gif"
+            ],
+            "name": "Kings of Horror",
+            "description": "Watch indie horror movies from the Kings of Horror collection on OpenVoiceOS.",
+            "examples": [
+                "open horror movies menu",
+                "play ninja zombies movie",
+                "play horror movie",
+                "play indie horror movie"
+            ],
+            "tags": [
+                "movies",
+                "horror",
+                "indie",
+                "video",
+                "entertainment"
             ]
         },
         {
@@ -761,6 +810,31 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-movie-central.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-movie-central",
+            "package_name": "ovos-skill-movie-central",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-movie-central",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-movie-central/raw/dev/ui/moviecentral_icon.jpg",
+            "name": "Movie Central",
+            "description": "Explore and watch movies from various genres on Movie Central.",
+            "examples": [
+                "watch horror movies",
+                "play comedy movies",
+                "play drama movies"
+            ],
+            "tags": [
+                "movies",
+                "video",
+                "entertainment",
+                "horror",
+                "action",
+                "thriller",
+                "comedy",
+                "drama"
+            ]
+        },
+        {
             "skill_id": "ovos-skill-horror-babble.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-horrorbabble",
             "package_name": "ovos-skill-horror-babble",
@@ -908,6 +982,33 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-midnight-screening.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-midnightscreening",
+            "package_name": "ovos-skill-midnight-screening",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-midnightscreening",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-midnightscreening/raw/dev/ui/midnightscreening_icon.jpg",
+            "name": "Midnight Screening",
+            "description": "Discover and watch free movies from various genres on Midnight Screening.",
+            "examples": [
+                "watch horror movies",
+                "play action movies",
+                "play sci fi movies"
+            ],
+            "tags": [
+                "movies",
+                "video",
+                "entertainment",
+                "horror",
+                "action",
+                "thriller",
+                "monster",
+                "fantasy",
+                "sci fi",
+                "disaster"
+            ]
+        },
+        {
             "skill_id": "skill-ovos-soundcloud.openvoiceos",
             "source": "https://github.com/OpenVoiceOS/skill-ovos-soundcloud",
             "package_name": "ovos-skill-soundcloud",
@@ -971,6 +1072,55 @@
             "images": [
                 "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/gui.png",
                 "https://raw.githubusercontent.com/OpenVoiceOS/skill-ovos-youtube/dev/gui2.png"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-loyalbooks.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-loyalbooks",
+            "package_name": "ovos-skill-loyalbooks",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-loyalbooks",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-loyalbooks/dev/ui/logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-loyalbooks/dev/gui.png"
+            ],
+            "name": "LoyalBooks",
+            "description": "Search and listen to audiobooks from LoyalBooks by voice.",
+            "examples": [
+                "read lovecraft"
+            ],
+            "tags": [
+                "audiobooks",
+                "librivox",
+                "common play"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-mytmovies.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-mytmovies",
+            "package_name": "ovos-skill-mytmovies",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-mytmovies",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-mytmovies/raw/dev/ui/mytmovies_icon.jpg",
+            "name": "Myt Movies",
+            "description": "Discover and watch free movies from various genres on Myt Movies.",
+            "examples": [
+                "watch comedy movies",
+                "play family movies",
+                "play adventure movies",
+                "watch thriller movies",
+                "play action movies",
+                "watch JUNGLE WOLF"
+            ],
+            "tags": [
+                "movies",
+                "video",
+                "entertainment",
+                "comedy",
+                "family",
+                "adventure",
+                "thriller",
+                "action"
             ]
         }
     ]
