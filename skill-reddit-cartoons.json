@@ -1,0 +1,19 @@
+{
+  "skill_id": "ovos-skill-reddit-cartoons.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-reddit-cartoons",
+  "package_name": "ovos-skill-reddit-cartoons",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-reddit-cartoons",
+  "license": "Apache-2.0",
+  "icon": "https://github.com/JarbasSkills/skill-reddit-cartoons/raw/dev/ui/logo.png",
+  "name": "r/fullcartoonsonyoutube",
+  "description": "A skill that plays cartoons from the r/fullcartoonsonyoutube community on Reddit.",
+  "examples": [
+    "open r/fullcartoonsonyoutube",
+    "play reddit cartoons"
+  ],
+  "tags": [
+    "documentaries",
+    "educational",
+    "entertainment"
+  ]
+}

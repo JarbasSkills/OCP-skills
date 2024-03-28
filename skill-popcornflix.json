@@ -1,0 +1,23 @@
+{
+  "skill_id": "ovos-skill-popcornflix.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-popcornflix",
+  "package_name": "ovos-skill-popcornflix",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-popcornflix",
+  "license": "MIT",
+  "icon": "https://github.com/JarbasSkills/skill-popcornflix/raw/dev/ui/popcornflix_icon.jpg",
+  "images": [],
+  "name": "PopcornFlix Movies",
+  "description": "Discover and play movies available on PopcornFlix.",
+  "examples": [
+    "open popcornflix",
+    "play a horror movie on popcornflix",
+    "play movie on popcornflix"
+  ],
+  "tags": [
+    "entertainment",
+    "movies",
+    "video",
+    "streaming",
+    "popcornflix"
+  ]
+}

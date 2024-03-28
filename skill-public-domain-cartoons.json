@@ -1,0 +1,26 @@
+{
+  "skill_id": "ovos-skill-public-domain-cartoons.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-public-domain-cartoons",
+  "package_name": "ovos-skill-public-domain-cartoons",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-public-domain-cartoons",
+  "license": "MIT",
+  "icon": "https://github.com/JarbasSkills/skill-public-domain-cartoons/raw/dev/ui/pd-cartoons.png",
+  "images": [
+    "https://github.com/JarbasSkills/skill-public-domain-cartoons/raw/dev/gui.png",
+    "https://github.com/JarbasSkills/skill-public-domain-cartoons/raw/dev/gui2.png"
+  ],
+  "name": "Public Domain Cartoons",
+  "description": "Enjoy a collection of classic public domain cartoons.",
+  "examples": [
+    "open public domain cartoons",
+    "play old cartoon",
+    "play public domain movie"
+  ],
+  "tags": [
+    "entertainment",
+    "cartoons",
+    "movies",
+    "video",
+    "public-domain"
+  ]
+}

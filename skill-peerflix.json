@@ -4,7 +4,7 @@
   "package_name": "ovos-skill-peerflix",
   "pip_spec": "git+https://github.com/JarbasSkills/skill-peerflix",
   "license": "Apache-2.0",
-  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-peerflix/dev/ui/magnet.png",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-peerflix/master/ui/magnet.png",
   "name": "Peerflix",
   "description": "Stream torrents in Mycroft-gui using peerflix!",
   "examples": [
