@@ -465,6 +465,32 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-picfixer.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-picfixer",
+            "package_name": "ovos-skill-picfixer",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-picfixer",
+            "license": "Apache-2.0",
+            "icon": "https://github.com/JarbasSkills/skill-picfixer/raw/dev/ui/picfixer.png",
+            "images": [
+                "https://github.com/JarbasSkills/skill-picfixer/raw/dev/gui.png",
+                "https://github.com/JarbasSkills/skill-picfixer/raw/dev/gui2.png"
+            ],
+            "name": "Picfixer Feature Film Collection",
+            "description": "Enjoy a selection of free feature films from various genres such as comedy, drama, adventure, mystery, romance, sci-fi, horror, westerns, documentaries, and exploitation. Nostalgic double-feature theater programs are also available.",
+            "examples": [
+                "open pic fixer",
+                "play old movie",
+                "play public domain movie"
+            ],
+            "tags": [
+                "entertainment",
+                "feature-films",
+                "movies",
+                "video",
+                "public-domain"
+            ]
+        },
+        {
             "skill_id": "skill-old-world-radio.openvoiceos",
             "source": "https://github.com/OVOSHatchery/ovos-skill-old-world-radio",
             "package_name": "ovos-skill-old-world-radio",
@@ -1096,6 +1122,25 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-peerflix.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-peerflix",
+            "package_name": "ovos-skill-peerflix",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-peerflix",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-peerflix/dev/ui/magnet.png",
+            "name": "Peerflix",
+            "description": "Stream torrents in Mycroft-gui using peerflix!",
+            "examples": [
+                "play a movie from rarbg"
+            ],
+            "tags": [
+                "video",
+                "common play",
+                "torrent"
+            ],
+            "author": "JarbasAl"
+        },
+        {
             "skill_id": "ovos-skill-mytmovies.jarbasai",
             "source": "https://github.com/JarbasSkills/skill-mytmovies",
             "package_name": "ovos-skill-mytmovies",
@@ -1121,6 +1166,32 @@
                 "adventure",
                 "thriller",
                 "action"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-omeleto.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-omeleto",
+            "package_name": "ovos-skill-omeleto",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-omeleto",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-omeleto/dev/ui/icon.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-omeleto/dev/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-omeleto/dev/gui2.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-omeleto/dev/gui3.png"
+            ],
+            "name": "Omeleto",
+            "description": "Watch Omeleto short films on OpenVoiceOS.",
+            "examples": [
+                "open omeleto",
+                "play short movie",
+                "play omeleto"
+            ],
+            "tags": [
+                "scifi",
+                "shortfilms",
+                "video",
+                "entertainment"
             ]
         }
     ]
