@@ -1,0 +1,17 @@
+{
+  "skill_id": "ovos-skill-full-free-films.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-fff",
+  "package_name": "ovos-skill-full-free-films",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-fff",
+  "license": "Apache-2.0",
+  "icon": "https://github.com/JarbasSkills/skill-fff/raw/dev/ui/fff_logo.png",
+  "images": [],
+  "name": "Full Free Films",
+  "description": "Discover and play movies from the Full Free Films library.",
+  "examples": [
+    "play THE BODY TREE from Full Free Films",
+    "search for horror movies on Full Free Films",
+    "play ZEITGEIST as a documentary from Full Free Films"
+  ],
+  "tags": ["movies", "entertainment", "documentaries"]
+}

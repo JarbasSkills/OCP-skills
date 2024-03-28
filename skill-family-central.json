@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-family-central.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-family-central",
+  "package_name": "ovos-skill-family-central",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-family-central",
+  "license": "Apache-2.0",
+  "icon": "https://github.com/JarbasSkills/skill-family-central/raw/dev/ui/familycentral_icon.jpg",
+  "images": [],
+  "name": "Family Central",
+  "description": "Discover and play movies from the Family Central library.",
+  "examples": [
+    "play a Christmas Princess from Family Central",
+    "search for Christmas movies on Family Central"
+  ],
+  "tags": ["movies", "entertainment", "family"]
+}

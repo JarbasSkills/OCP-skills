@@ -1,0 +1,15 @@
+{
+  "skill_id": "ovos-skill-film-noir.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-film-noir",
+  "package_name": "ovos-skill-film-noir",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-film-noir",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-film-noir/main/ui/filmnoir_icon.gif",
+  "name": "Film Noir",
+  "description": "Stream and enjoy black-and-white movies from the Film Noir genre.",
+  "examples": [
+    "play A Colt Is My Passport",
+    "find Film Noir movies by a specific director"
+  ],
+  "tags": ["movies", "classics", "black-and-white", "genre"]
+}

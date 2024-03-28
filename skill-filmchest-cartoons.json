@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-filmchest-vintage-cartoons.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-film-chest-vintage-cartoons",
+  "package_name": "ovos-skill-filmchest-vintage-cartoons",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-film-chest-vintage-cartoons",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-film-chest-vintage-cartoons/dev/filmchest.gif",
+  "images": [],
+  "name": "FilmChest Vintage Cartoons",
+  "description": "Stream vintage cartoons from FilmChest.",
+  "examples": [
+    "play a vintage cartoon from FilmChest",
+    "find Betty Boop cartoons"
+  ],
+  "tags": ["cartoons", "vintage", "filmchest", "animation"]
+}
