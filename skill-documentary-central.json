@@ -1,0 +1,16 @@
+{
+  "skill_id": "ovos-skill-documentary-central.jarbasai",
+  "source": "https://github.com/JarbasSkills/skill-documentary-central",
+  "package_name": "ovos-skill-documentary-central",
+  "pip_spec": "git+https://github.com/JarbasSkills/skill-documentary-central",
+  "license": "Apache-2.0",
+  "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-documentary-central/dev/ui/documentarycentral_icon.jpg",
+  "images": [],
+  "name": "Documentary Central",
+  "description": "Discover and play documentaries from Documentary Central.",
+  "examples": [
+    "play a documentary",
+    "find a documentary about space"
+  ],
+  "tags": ["documentaries", "education", "entertainment"]
+}
