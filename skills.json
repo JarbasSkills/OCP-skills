@@ -170,6 +170,27 @@
             ]
         },
         {
+            "skill_id": "ovos-skill-golden-audiobooks.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-golden-audiobooks",
+            "package_name": "ovos-skill-golden-audiobooks",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-golden-audiobooks",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-golden-audiobooks/dev/ui/logo.png",
+            "images": [
+                "https://raw.githubusercontent.com/JarbasSkills/skill-golden-audiobooks/dev/gui.png",
+                "https://raw.githubusercontent.com/JarbasSkills/skill-golden-audiobooks/dev/gui2.png"
+            ],
+            "name": "Golden Audio Books Skill",
+            "description": "Search and enjoy audiobooks from Golden AudioBooks.",
+            "examples": [
+                "read jurassic park"
+            ],
+            "tags": [
+                "audiobooks",
+                "common play"
+            ]
+        },
+        {
             "skill_id": "skill-ovos-spotify.openvoiceos",
             "source": "https://github.com/OpenVoiceOS/skill-ovos-spotify",
             "package_name": "ovos-skill-ovos-spotify",
@@ -220,6 +241,25 @@
                 "radio theatre",
                 "lovecraft",
                 "entertainment"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-horror-central.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-horror-central",
+            "package_name": "ovos-skill-horror-central",
+            "pip_spec": "git+https://github.com/JarbasSkills/skill-horror-central",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-horror-central/dev/ui/horrorcentral_icon.jpg",
+            "name": "Horror Central",
+            "description": "Stream horror movies from Horror Central.",
+            "examples": [
+                "play BIGFOOT VS ZOMBIES",
+                "search for a horror movie"
+            ],
+            "tags": [
+                "movies",
+                "horror",
+                "streaming"
             ]
         },
         {
@@ -331,6 +371,25 @@
                 "video",
                 "entertainment",
                 "information"
+            ]
+        },
+        {
+            "skill_id": "ovos-skill-filmsandclips.jarbasai",
+            "source": "https://github.com/JarbasSkills/skill-filmsandclips",
+            "package_name": "ovos-skill-filmsandclips",
+            "license": "Apache-2.0",
+            "icon": "https://raw.githubusercontent.com/JarbasSkills/skill-filmsandclips/dev/ui/filmsandclips_icon.jpg",
+            "images": [],
+            "name": "FilmsAndClips",
+            "description": "A skill to search and play movies and documentaries from FilmAndClips.",
+            "examples": [
+                "play a movie by Piero Pierotti",
+                "find George Hilton movies"
+            ],
+            "tags": [
+                "movies",
+                "films",
+                "documentaries"
             ]
         },
         {
